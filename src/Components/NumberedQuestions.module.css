@@ -1,0 +1,25 @@
+.numbered-question-list {
+  display: flex;
+  gap: 5px;
+  overflow-x: auto;
+  scrollbar-width: none;
+  /* height: 20px; */
+  /* padding: 8px; */
+}
+
+.numbered-question-list > p {
+  /* list-style-type: none; */
+  height: fit-content;
+  width: fit-content;
+  text-align: center;
+  /* margin: auto; */
+  padding: 2px 8px;
+  border-radius: 3px;
+  /* background-color: white; */
+  cursor: pointer;
+}
+
+.numbered-question-list .current-question {
+  background-color: #d1a516;
+  color: white;
+}

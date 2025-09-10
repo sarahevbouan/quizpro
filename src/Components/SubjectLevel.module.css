@@ -1,0 +1,58 @@
+.levelContainer {
+  /* color: initial; */
+  width: 100%;
+  max-width: 700px;
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* justify-content: center; */
+  margin: auto;
+}
+
+.levelContainer > * {
+  /* width: 100%; */
+}
+
+.levelContainer h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.level {
+  margin-bottom: 1rem;
+  display: flex;
+  gap: 1rem;
+  /* justify-content: space-between; */
+  align-items: center;
+  background-color: #ffffff;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 0 6px rgb(201, 200, 200);
+}
+
+.levelContainer button {
+  margin-top: 1rem;
+  min-width: 100%;
+  /* text-align: center; */
+  /* margin: auto; */
+  /* align-self: center; */
+}
+
+.level:hover {
+  box-shadow: 0 0 10px 5px rgb(201, 200, 200);
+}
+
+.level a {
+  font-weight: 600;
+}
+
+.level a:hover {
+  color: #d1a516;
+  /* opacity: 1; */
+}
+
+.level img {
+  height: 50px;
+  width: 50px;
+  border: 1px solid #b5d1fd;
+  border-radius: 50%;
+}

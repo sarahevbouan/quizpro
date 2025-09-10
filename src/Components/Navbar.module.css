@@ -1,0 +1,132 @@
+.navbar {
+  background-color: #7f6fad;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* align-items: center; */
+  width: 100%;
+  /* margin: auto; */
+  padding: 0 8px;
+  height: 4rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  /* padding-top: 2rem; */
+  border-bottom: 1px solid #e2cdb8;
+  font-size: 14px;
+  /* height: 4rem; */
+}
+
+.brand {
+  font-weight: 800;
+  font-size: 20px;
+  font-family: "Playfair Display", sans-serif;
+  color: #ffffff;
+}
+
+.navbar > ul {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.user-details {
+  position: relative;
+  /* top: 0; */
+  /* right: 0; */
+  /* width: 100vw; */
+  /* display: flex; */
+  flex-direction: column;
+  /* align-items: center; */
+  /* height: 70vh; */
+  /* align-items: end; */
+  /* z-index: 2000; */
+  /* background-color: white; */
+}
+
+.user-icon {
+  border: 1px solid #ffffff;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  padding: 2px;
+  cursor: pointer;
+}
+
+.user-icon svg {
+  height: 100%;
+  width: 100%;
+}
+
+.user-dropdown {
+  width: 100vw;
+  max-height: 70vh;
+  box-shadow: 0 0 2px 0px #b5d1fd;
+  border-radius: 4px;
+  position: fixed;
+  top: 4rem;
+  left: 0;
+  transition: height 0.2s;
+  overflow: hidden;
+  padding: 0 20px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  /* backdrop-filter: blur(100vw); */
+  /* align-items: center; */
+  /* box-shadow: 1px 1px 150px 150px rgba(255, 255, 255, 0.6); */
+}
+
+.closeDrawer {
+  height: 0px;
+}
+
+.openDrawer {
+  width: 100%;
+  height: 100%;
+}
+
+.user-dropdown > * {
+  margin-top: 8px;
+  cursor: pointer;
+}
+
+/* .modal {
+  position: absolute;
+  top: 4rem;
+  left: 0;
+  width: 150%;
+  height: 150%;
+  box-shadow: 1px 1px 1px grey;
+  backdrop-filter: blur(10px);
+} */
+
+.btn {
+  border: 1px solid #ffffff;
+  background-color: inherit;
+  color: #ffffff;
+}
+
+.navLogin {
+  color: #ffffff;
+}
+
+@media screen and (min-width: 768px) {
+  .navbar {
+    padding: 0 5rem;
+    height: 5rem;
+  }
+
+  .brand {
+    font-size: 24px;
+  }
+
+  .user-dropdown {
+    width: 200px;
+    max-height: 200px;
+    right: 2rem;
+    top: 3.5rem;
+    left: revert;
+  }
+}

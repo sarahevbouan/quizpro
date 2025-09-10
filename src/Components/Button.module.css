@@ -1,0 +1,19 @@
+.btnFamily {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  padding: 10px 20px;
+  max-width: fit-content;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  min-width: 100px;
+}
+
+.btn {
+  background-color: #655594;
+  color: white;
+  border: none;
+}
+
+.btnFamily:hover {
+  opacity: 0.7;
+}

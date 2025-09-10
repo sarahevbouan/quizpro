@@ -1,0 +1,53 @@
+.question-answer-group button {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: left;
+  border: none;
+  /* margin-bottom: 1rem; */
+  /* background-color: white; */
+  /* transition: background-color 2s; */
+}
+
+.correct::after {
+  content: "Correct answer";
+  float: right;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.correct-selected {
+  background-color: #d4edda;
+  font-weight: bold;
+}
+
+.correct-selected::before {
+  content: "✔️ ";
+}
+
+.correct-notSelected {
+  background-color: #e6ffed;
+}
+
+.wrong-selected {
+  background-color: #f8d7da;
+}
+
+.wrong-selected::before {
+  content: "❌ ";
+}
+
+.question-answer-group .wrong-notSelected {
+  color: grey;
+}
+
+/* .choosenAnswer::after {
+  content: "your answer";
+} */
+
+.noSelection {
+  float: right;
+  margin-bottom: 1rem;
+  font-size: 12px;
+}

@@ -1,0 +1,36 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  /* width: 60%; */
+  /* margin: auto; */
+  /* gap: 1rem; */
+  /* background-color: #ffffff; */
+  /* padding: 20px; */
+  /* border-radius: 3px; */
+}
+
+.form label {
+  font-weight: 700;
+}
+
+.form input {
+  padding: 10px;
+  margin: 0.2rem 0 1.5rem;
+  border-radius: 5px;
+  border: none;
+  background-color: #f1f5f9;
+  font-weight: bold;
+}
+
+.form button {
+  margin-bottom: 2rem;
+}
+
+.form input:focus {
+  outline: 1px solid #d1a516;
+}
+
+.error {
+  color: #f43f5e;
+  margin-bottom: 1rem;
+}

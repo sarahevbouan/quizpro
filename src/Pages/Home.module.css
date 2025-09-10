@@ -1,0 +1,99 @@
+/* .container {
+  width: 90%;
+  display: flex;
+  gap: 2rem;
+  margin: 4rem auto;
+}
+
+.container > * {
+  flex: 1;
+  border: 1px solid red;
+} */
+
+.heroImg {
+  width: 90%;
+}
+
+.marginB {
+  margin-bottom: 1rem;
+}
+
+.CTA {
+  display: flex;
+  align-self: center;
+  gap: 1rem;
+}
+
+.signin {
+  border: 1px solid #655594;
+  background-color: none;
+  color: revert;
+}
+
+.header {
+  text-align: center;
+}
+
+.oneLiner {
+  font-size: 28px;
+  font-family: "Playfair Display", sans-serif;
+  font-style: italic;
+  font-weight: bolder;
+}
+
+.oneLiner span:nth-child(1) {
+  color: #1ab6f3;
+}
+
+.oneLiner span:nth-child(2) {
+  color: #6750a4;
+}
+
+.oneLiner span:nth-child(3) {
+  color: #d1a516;
+}
+
+.heading {
+  font-size: 24px;
+  text-align: center;
+}
+
+.heading span {
+  color: #6750a4;
+}
+
+.heroText {
+  display: flex;
+  flex-direction: column;
+}
+
+.start {
+  text-align: center;
+  /* border-top: 1px solid blue; */
+  margin: 2rem 0 1rem 0;
+}
+
+.start h3 {
+  text-align: center;
+  color: #d1a516;
+  /* padding: 8px 2px; */
+  /* border-bottom: 5px solid #d1a516; */
+  /* border-radius: 2px; */
+  /* width: fit-content; */
+  /* align-self: center; */
+}
+
+@media screen and (min-width: 768px) {
+  .header {
+    text-align: start;
+  }
+
+  .heading {
+    font-size: 48px;
+    text-align: start;
+  }
+
+  .oneLiner {
+    font-size: 32px;
+  }
+}

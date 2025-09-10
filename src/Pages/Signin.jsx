@@ -1,0 +1,50 @@
+// import { useContext, useState } from "react";
+import { Link, useNavigate } from "react-router-dom";
+import { UserContext } from "../Contexts/UserContext";
+import Form from "../Components/Form";
+import { useContext } from "react";
+import { getLocalStorageItem, setSessionStorageItem } from "../Utils/utils";
+import Navbar from "../Components/Navbar";
+import styles from "./InputForms.module.css";
+import graduationHat from "../assets/images/graduation-hat.png";
+
+const Signin = () => {
+  const { activeUserId, setActiveUserId } = useContext(UserContext);
+  const navigate = useNavigate();
+  const handleSignin = (username, password, setInvalidUserAlert) => {
+    const parsedUserDB = getLocalStorageItem("userDB");
+    const activeUser = parsedUserDB?.find(
+      (user) => user.username === username && user.password === password
+    );
+    if (activeUser) {
+      setActiveUserId(activeUser.username);
+      setInvalidUserAlert("");
+      navigate("/");
+      setSessionStorageItem("activeUserId", activeUser.username);
+    } else {
+      setInvalidUserAlert("Incorrect Username or password");
+      return;
+    }
+  };
+  return (
+    <div className="wrapper">
+      <Navbar />
+
+      <div className={`container ${styles.bgContainer}`}>
+        <div className={styles.formContainer}>
+          <h2 className={styles.formHeader}>Login</h2>
+          <Form onSubmit={handleSignin}>Login</Form>
+
+          <p>
+            Don't have an account? <Link to="/signup">Sign up</Link>
+          </p>
+        </div>
+        {/* <div className="rightPanel">
+          <img className="heroImg" src={graduationHat} alt="" />
+        </div> */}
+      </div>
+    </div>
+  );
+};
+
+export default Signin;

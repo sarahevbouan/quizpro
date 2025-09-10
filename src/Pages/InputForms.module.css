@@ -1,0 +1,51 @@
+/* .container {
+  width: 90%;
+  display: flex;
+  gap: 2rem;
+  margin: 4rem auto;
+} */
+
+.formContainer {
+  background-color: #ffffff;
+  width: 100%;
+  max-width: 840px;
+  margin: auto;
+  height: 100%;
+  border-radius: 4px;
+  padding: 1.5rem;
+  box-shadow: 0 0 250px 50px rgba(0, 0, 0, 0.1);
+}
+
+/* .container > * {
+  margin-bottom: 1rem;
+  flex: 1;
+  border: 1px solid red;
+} */
+
+.formContainer a {
+  color: #d1a516;
+}
+
+.formContainer a:hover {
+  border-bottom: 1px solid #d1a516;
+}
+
+.formContainer > h3,
+.formContainer > p {
+  text-align: center;
+}
+
+/* .rightPanel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+.formHeader {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.bgContainer {
+  background-image: url("../assets/images/hero.png");
+}

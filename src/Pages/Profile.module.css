@@ -1,0 +1,59 @@
+.header {
+  margin-bottom: 2rem;
+}
+
+.profileContainer {
+  width: 100%;
+  max-width: 840px;
+  margin: auto;
+  background-color: white;
+  padding: 2rem 1rem 6rem;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+}
+
+.inputGroup {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #d1c59c;
+  padding: 1rem 0.5rem;
+  align-items: center;
+}
+
+.inputLabel {
+  font-weight: bold;
+}
+
+.inputGroup input {
+  padding: 10px 1px;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+  background-color: inherit;
+  max-width: 100px;
+}
+
+.inputGroup input:focus {
+  outline: 1px solid #d1a516;
+}
+
+.editActions {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.editActions button {
+  /* padding: 0; */
+  height: fit-content;
+}
+
+@media screen and (min-width: 768px) {
+  .editActions {
+    flex-direction: row;
+  }
+
+  .inputGroup input {
+    max-width: revert;
+  }
+}

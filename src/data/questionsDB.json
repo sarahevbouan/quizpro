@@ -1,0 +1,831 @@
+[
+  {
+    "id": "biology",
+    "title": "Biology",
+    "questions": {
+      "easy": [
+        {
+          "questionID": 1,
+          "question": "What is Biology",
+          "answerOptions": [
+            "Way of life",
+            "Study of living things",
+            "Study of animals",
+            "Study of plants"
+          ],
+          "correctOptionIndex": 1,
+          "correctOption": "Study of living things",
+          "points": 10
+        },
+        {
+          "questionID": 2,
+          "question": "What is Photosynthesis?",
+          "answerOptions": [
+            "Process by which green plant synthesize their foods using sunlight and CO2",
+            "Study of living things",
+            "Study of animals",
+            "Study of plants"
+          ],
+          "correctOptionIndex": 0,
+          "correctOption": "Process by which green plant synthesize their foods using sunlight and CO2",
+          "points": 20
+        },
+        {
+          "questionID": 3,
+          "question": "Omnivorous animals feed on .....",
+          "answerOptions": [
+            "Dead cells",
+            "Only animals",
+            "Only plants",
+            "Plants and animals"
+          ],
+          "correctOptionIndex": 3,
+          "correctOption": "Plants and animals",
+          "points": 15
+        },
+        {
+          "questionID": 4,
+          "question": "What is Biology",
+          "answerOptions": [
+            "Way of life",
+            "Study of living things",
+            "Study of animals",
+            "Study of plants"
+          ],
+          "correctOptionIndex": 1,
+          "correctOption": "Study of living things",
+          "points": 10
+        },
+        {
+          "questionID": 5,
+          "question": "What is Photosynthesis?",
+          "answerOptions": [
+            "Process by which green plant synthesize their foods using sunlight and CO2",
+            "Study of living things",
+            "Study of animals",
+            "Study of plants"
+          ],
+          "correctOptionIndex": 0,
+          "correctOption": "Process by which green plant synthesize their foods using sunlight and CO2",
+          "points": 20
+        },
+        {
+          "questionID": 6,
+          "question": "Omnivorous animals feed on .....",
+          "answerOptions": [
+            "Dead cells",
+            "Only animals",
+            "Only plants",
+            "Plants and animals"
+          ],
+          "correctOptionIndex": 3,
+          "correctOption": "Plants and animals",
+          "points": 15
+        }
+      ],
+      "medium": [
+        {
+          "questionID": 1,
+          "question": "What is Biology",
+          "answerOptions": [
+            "Way of life",
+            "Study of living things",
+            "Study of animals",
+            "Study of plants"
+          ],
+          "correctOptionIndex": 1,
+          "correctOption": "Study of living things",
+          "points": 10
+        },
+        {
+          "questionID": 2,
+          "question": "What is Photosynthesis?",
+          "answerOptions": [
+            "Process by which green plant synthesize their foods using sunlight and CO2",
+            "Study of living things",
+            "Study of animals",
+            "Study of plants"
+          ],
+          "correctOptionIndex": 0,
+          "correctOption": "Process by which green plant synthesize their foods using sunlight and CO2",
+          "points": 20
+        },
+        {
+          "questionID": 3,
+          "question": "Omnivorous animals feed on .....",
+          "answerOptions": [
+            "Dead cells",
+            "Only animals",
+            "Only plants",
+            "Plants and animals"
+          ],
+          "correctOptionIndex": 3,
+          "correctOption": "Plants and animals",
+          "points": 15
+        },
+        {
+          "questionID": 4,
+          "question": "What is Biology",
+          "answerOptions": [
+            "Way of life",
+            "Study of living things",
+            "Study of animals",
+            "Study of plants"
+          ],
+          "correctOptionIndex": 1,
+          "correctOption": "Study of living things",
+          "points": 10
+        },
+        {
+          "questionID": 5,
+          "question": "What is Photosynthesis?",
+          "answerOptions": [
+            "Process by which green plant synthesize their foods using sunlight and CO2",
+            "Study of living things",
+            "Study of animals",
+            "Study of plants"
+          ],
+          "correctOptionIndex": 0,
+          "correctOption": "Process by which green plant synthesize their foods using sunlight and CO2",
+          "points": 20
+        }
+      ],
+      "hard": [
+        {
+          "questionID": 1,
+          "question": "What is Biology",
+          "answerOptions": [
+            "Way of life",
+            "Study of living things",
+            "Study of animals",
+            "Study of plants"
+          ],
+          "correctOptionIndex": 1,
+          "correctOption": "Study of living things",
+          "points": 10
+        },
+        {
+          "questionID": 2,
+          "question": "What is Photosynthesis?",
+          "answerOptions": [
+            "Process by which green plant synthesize their foods using sunlight and CO2",
+            "Study of living things",
+            "Study of animals",
+            "Study of plants"
+          ],
+          "correctOptionIndex": 0,
+          "correctOption": "Process by which green plant synthesize their foods using sunlight and CO2",
+          "points": 20
+        },
+        {
+          "questionID": 3,
+          "question": "Omnivorous animals feed on .....",
+          "answerOptions": [
+            "Dead cells",
+            "Only animals",
+            "Only plants",
+            "Plants and animals"
+          ],
+          "correctOptionIndex": 3,
+          "correctOption": "Plants and animals",
+          "points": 15
+        },
+        {
+          "questionID": 4,
+          "question": "What is Biology",
+          "answerOptions": [
+            "Way of life",
+            "Study of living things",
+            "Study of animals",
+            "Study of plants"
+          ],
+          "correctOptionIndex": 1,
+          "correctOption": "Study of living things",
+          "points": 10
+        }
+      ]
+    }
+  },
+  {
+    "id": "chemistry",
+    "title": "Chemistry",
+    "questions": {
+      "easy": [
+        {
+          "questionID": 1,
+          "question": "What is Biology",
+          "answerOptions": [
+            "Way of life",
+            "Study of living things",
+            "Study of animals",
+            "Study of plants"
+          ],
+          "correctOptionIndex": 1,
+          "correctOption": "Study of living things",
+          "points": 10
+        },
+        {
+          "questionID": 2,
+          "question": "What is Photosynthesis?",
+          "answerOptions": [
+            "Process by which green plant synthesize their foods using sunlight and CO2",
+            "Study of living things",
+            "Study of animals",
+            "Study of plants"
+          ],
+          "correctOptionIndex": 0,
+          "correctOption": "Process by which green plant synthesize their foods using sunlight and CO2",
+          "points": 20
+        },
+        {
+          "questionID": 3,
+          "question": "Omnivorous animals feed on .....",
+          "answerOptions": [
+            "Dead cells",
+            "Only animals",
+            "Only plants",
+            "Plants and animals"
+          ],
+          "correctOptionIndex": 3,
+          "correctOption": "Plants and animals",
+          "points": 15
+        },
+        {
+          "questionID": 4,
+          "question": "What is Biology",
+          "answerOptions": [
+            "Way of life",
+            "Study of living things",
+            "Study of animals",
+            "Study of plants"
+          ],
+          "correctOptionIndex": 1,
+          "correctOption": "Study of living things",
+          "points": 10
+        },
+        {
+          "questionID": 5,
+          "question": "What is Photosynthesis?",
+          "answerOptions": [
+            "Process by which green plant synthesize their foods using sunlight and CO2",
+            "Study of living things",
+            "Study of animals",
+            "Study of plants"
+          ],
+          "correctOptionIndex": 0,
+          "correctOption": "Process by which green plant synthesize their foods using sunlight and CO2",
+          "points": 20
+        },
+        {
+          "questionID": 6,
+          "question": "Carnivorous animals feed on .....",
+          "answerOptions": [
+            "Dead cells",
+            "Only animals",
+            "Only plants",
+            "Plants and animals"
+          ],
+          "correctOptionIndex": 3,
+          "correctOption": "Plants and animals",
+          "points": 15
+        }
+      ],
+      "medium": [
+        {
+          "questionID": 1,
+          "question": "What is Biology",
+          "answerOptions": [
+            "Way of life",
+            "Study of living things",
+            "Study of animals",
+            "Study of plants"
+          ],
+          "correctOptionIndex": 1,
+          "correctOption": "Study of living things",
+          "points": 10
+        },
+        {
+          "questionID": 2,
+          "question": "What is Photosynthesis?",
+          "answerOptions": [
+            "Process by which green plant synthesize their foods using sunlight and CO2",
+            "Study of living things",
+            "Study of animals",
+            "Study of plants"
+          ],
+          "correctOptionIndex": 0,
+          "correctOption": "Process by which green plant synthesize their foods using sunlight and CO2",
+          "points": 20
+        },
+        {
+          "questionID": 3,
+          "question": "Omnivorous animals feed on .....",
+          "answerOptions": [
+            "Dead cells",
+            "Only animals",
+            "Only plants",
+            "Plants and animals"
+          ],
+          "correctOptionIndex": 3,
+          "correctOption": "Plants and animals",
+          "points": 15
+        },
+        {
+          "questionID": 4,
+          "question": "What is Biology",
+          "answerOptions": [
+            "Way of life",
+            "Study of living things",
+            "Study of animals",
+            "Study of plants"
+          ],
+          "correctOptionIndex": 1,
+          "correctOption": "Study of living things",
+          "points": 10
+        },
+        {
+          "questionID": 5,
+          "question": "What is Photosynthesis?",
+          "answerOptions": [
+            "Process by which green plant synthesize their foods using sunlight and CO2",
+            "Study of living things",
+            "Study of animals",
+            "Study of plants"
+          ],
+          "correctOptionIndex": 0,
+          "correctOption": "Process by which green plant synthesize their foods using sunlight and CO2",
+          "points": 20
+        }
+      ],
+      "hard": [
+        {
+          "questionID": 1,
+          "question": "What is Biology",
+          "answerOptions": [
+            "Way of life",
+            "Study of living things",
+            "Study of animals",
+            "Study of plants"
+          ],
+          "correctOptionIndex": 1,
+          "correctOption": "Study of living things",
+          "points": 10
+        },
+        {
+          "questionID": 2,
+          "question": "What is Photosynthesis?",
+          "answerOptions": [
+            "Process by which green plant synthesize their foods using sunlight and CO2",
+            "Study of living things",
+            "Study of animals",
+            "Study of plants"
+          ],
+          "correctOptionIndex": 0,
+          "correctOption": "Process by which green plant synthesize their foods using sunlight and CO2",
+          "points": 20
+        },
+        {
+          "questionID": 3,
+          "question": "Carnivorous animals feed on .....",
+          "answerOptions": [
+            "Dead cells",
+            "Only animals",
+            "Only plants",
+            "Plants and animals"
+          ],
+          "correctOptionIndex": 3,
+          "correctOption": "Plants and animals",
+          "points": 15
+        },
+        {
+          "questionID": 4,
+          "question": "What is Biology",
+          "answerOptions": [
+            "Way of life",
+            "Study of living things",
+            "Study of animals",
+            "Study of plants"
+          ],
+          "correctOptionIndex": 1,
+          "correctOption": "Study of living things",
+          "points": 10
+        }
+      ]
+    }
+  },
+
+  {
+    "id": "computer science",
+    "title": "computer science",
+    "questions": {
+      "easy": [
+        {
+          "questionID": 1,
+          "question": "What is Biology",
+          "answerOptions": [
+            "Way of life",
+            "Study of living things",
+            "Study of animals",
+            "Study of plants"
+          ],
+          "correctOptionIndex": 1,
+          "correctOption": "Study of living things",
+          "points": 10
+        },
+        {
+          "questionID": 2,
+          "question": "What is Photosynthesis?",
+          "answerOptions": [
+            "Process by which green plant synthesize their foods using sunlight and CO2",
+            "Study of living things",
+            "Study of animals",
+            "Study of plants"
+          ],
+          "correctOptionIndex": 0,
+          "correctOption": "Process by which green plant synthesize their foods using sunlight and CO2",
+          "points": 20
+        },
+        {
+          "questionID": 3,
+          "question": "Carnivorous animals feed on .....",
+          "answerOptions": [
+            "Dead cells",
+            "Only animals",
+            "Only plants",
+            "Plants and animals"
+          ],
+          "correctOptionIndex": 3,
+          "correctOption": "Plants and animals",
+          "points": 15
+        },
+        {
+          "questionID": 4,
+          "question": "What is Biology",
+          "answerOptions": [
+            "Way of life",
+            "Study of living things",
+            "Study of animals",
+            "Study of plants"
+          ],
+          "correctOptionIndex": 1,
+          "correctOption": "Study of living things",
+          "points": 10
+        },
+        {
+          "questionID": 5,
+          "question": "What is Photosynthesis?",
+          "answerOptions": [
+            "Process by which green plant synthesize their foods using sunlight and CO2",
+            "Study of living things",
+            "Study of animals",
+            "Study of plants"
+          ],
+          "correctOptionIndex": 0,
+          "correctOption": "Process by which green plant synthesize their foods using sunlight and CO2",
+          "points": 20
+        },
+        {
+          "questionID": 6,
+          "question": "Carnivorous animals feed on .....",
+          "answerOptions": [
+            "Dead cells",
+            "Only animals",
+            "Only plants",
+            "Plants and animals"
+          ],
+          "correctOptionIndex": 3,
+          "correctOption": "Plants and animals",
+          "points": 15
+        }
+      ],
+      "medium": [
+        {
+          "questionID": 1,
+          "question": "What is Biology",
+          "answerOptions": [
+            "Way of life",
+            "Study of living things",
+            "Study of animals",
+            "Study of plants"
+          ],
+          "correctOptionIndex": 1,
+          "correctOption": "Study of living things",
+          "points": 10
+        },
+        {
+          "questionID": 2,
+          "question": "What is Photosynthesis?",
+          "answerOptions": [
+            "Process by which green plant synthesize their foods using sunlight and CO2",
+            "Study of living things",
+            "Study of animals",
+            "Study of plants"
+          ],
+          "correctOptionIndex": 0,
+          "correctOption": "Process by which green plant synthesize their foods using sunlight and CO2",
+          "points": 20
+        },
+        {
+          "questionID": 3,
+          "question": "Carnivorous animals feed on .....",
+          "answerOptions": [
+            "Dead cells",
+            "Only animals",
+            "Only plants",
+            "Plants and animals"
+          ],
+          "correctOptionIndex": 3,
+          "correctOption": "Plants and animals",
+          "points": 15
+        },
+        {
+          "questionID": 4,
+          "question": "What is Biology",
+          "answerOptions": [
+            "Way of life",
+            "Study of living things",
+            "Study of animals",
+            "Study of plants"
+          ],
+          "correctOptionIndex": 1,
+          "correctOption": "Study of living things",
+          "points": 10
+        },
+        {
+          "questionID": 5,
+          "question": "What is Photosynthesis?",
+          "answerOptions": [
+            "Process by which green plant synthesize their foods using sunlight and CO2",
+            "Study of living things",
+            "Study of animals",
+            "Study of plants"
+          ],
+          "correctOptionIndex": 0,
+          "correctOption": "Process by which green plant synthesize their foods using sunlight and CO2",
+          "points": 20
+        }
+      ],
+      "hard": [
+        {
+          "questionID": 1,
+          "question": "What is Biology",
+          "answerOptions": [
+            "Way of life",
+            "Study of living things",
+            "Study of animals",
+            "Study of plants"
+          ],
+          "correctOptionIndex": 1,
+          "correctOption": "Study of living things",
+          "points": 10
+        },
+        {
+          "questionID": 2,
+          "question": "What is Photosynthesis?",
+          "answerOptions": [
+            "Process by which green plant synthesize their foods using sunlight and CO2",
+            "Study of living things",
+            "Study of animals",
+            "Study of plants"
+          ],
+          "correctOptionIndex": 0,
+          "correctOption": "Process by which green plant synthesize their foods using sunlight and CO2",
+          "points": 20
+        },
+        {
+          "questionID": 3,
+          "question": "Carnivorous animals feed on .....",
+          "answerOptions": [
+            "Dead cells",
+            "Only animals",
+            "Only plants",
+            "Plants and animals"
+          ],
+          "correctOptionIndex": 3,
+          "correctOption": "Plants and animals",
+          "points": 15
+        },
+        {
+          "questionID": 4,
+          "question": "What is Biology",
+          "answerOptions": [
+            "Way of life",
+            "Study of living things",
+            "Study of animals",
+            "Study of plants"
+          ],
+          "correctOptionIndex": 1,
+          "correctOption": "Study of living things",
+          "points": 10
+        }
+      ]
+    }
+  },
+  {
+    "id": "english",
+    "title": "english",
+    "questions": {
+      "easy": [
+        {
+          "questionID": 1,
+          "question": "What is Biology",
+          "answerOptions": [
+            "Way of life",
+            "Study of living things",
+            "Study of animals",
+            "Study of plants"
+          ],
+          "correctOptionIndex": 1,
+          "correctOption": "Study of living things",
+          "points": 10
+        },
+        {
+          "questionID": 2,
+          "question": "What is Photosynthesis?",
+          "answerOptions": [
+            "Process by which green plant synthesize their foods using sunlight and CO2",
+            "Study of living things",
+            "Study of animals",
+            "Study of plants"
+          ],
+          "correctOptionIndex": 0,
+          "correctOption": "Process by which green plant synthesize their foods using sunlight and CO2",
+          "points": 20
+        },
+        {
+          "questionID": 3,
+          "question": "Carnivorous animals feed on .....",
+          "answerOptions": [
+            "Dead cells",
+            "Only animals",
+            "Only plants",
+            "Plants and animals"
+          ],
+          "correctOptionIndex": 3,
+          "correctOption": "Plants and animals",
+          "points": 15
+        },
+        {
+          "questionID": 4,
+          "question": "What is Biology",
+          "answerOptions": [
+            "Way of life",
+            "Study of living things",
+            "Study of animals",
+            "Study of plants"
+          ],
+          "correctOptionIndex": 1,
+          "correctOption": "Study of living things",
+          "points": 10
+        },
+        {
+          "questionID": 5,
+          "question": "What is Photosynthesis?",
+          "answerOptions": [
+            "Process by which green plant synthesize their foods using sunlight and CO2",
+            "Study of living things",
+            "Study of animals",
+            "Study of plants"
+          ],
+          "correctOptionIndex": 0,
+          "correctOption": "Process by which green plant synthesize their foods using sunlight and CO2",
+          "points": 20
+        },
+        {
+          "questionID": 6,
+          "question": "Carnivorous animals feed on .....",
+          "answerOptions": [
+            "Dead cells",
+            "Only animals",
+            "Only plants",
+            "Plants and animals"
+          ],
+          "correctOptionIndex": 3,
+          "correctOption": "Plants and animals",
+          "points": 15
+        }
+      ],
+      "medium": [
+        {
+          "questionID": 1,
+          "question": "What is Biology",
+          "answerOptions": [
+            "Way of life",
+            "Study of living things",
+            "Study of animals",
+            "Study of plants"
+          ],
+          "correctOptionIndex": 1,
+          "correctOption": "Study of living things",
+          "points": 10
+        },
+        {
+          "questionID": 2,
+          "question": "What is Photosynthesis?",
+          "answerOptions": [
+            "Process by which green plant synthesize their foods using sunlight and CO2",
+            "Study of living things",
+            "Study of animals",
+            "Study of plants"
+          ],
+          "correctOptionIndex": 0,
+          "correctOption": "Process by which green plant synthesize their foods using sunlight and CO2",
+          "points": 20
+        },
+        {
+          "questionID": 3,
+          "question": "Carnivorous animals feed on .....",
+          "answerOptions": [
+            "Dead cells",
+            "Only animals",
+            "Only plants",
+            "Plants and animals"
+          ],
+          "correctOptionIndex": 3,
+          "correctOption": "Plants and animals",
+          "points": 15
+        },
+        {
+          "questionID": 4,
+          "question": "What is Biology",
+          "answerOptions": [
+            "Way of life",
+            "Study of living things",
+            "Study of animals",
+            "Study of plants"
+          ],
+          "correctOptionIndex": 1,
+          "correctOption": "Study of living things",
+          "points": 10
+        },
+        {
+          "questionID": 5,
+          "question": "What is Photosynthesis?",
+          "answerOptions": [
+            "Process by which green plant synthesize their foods using sunlight and CO2",
+            "Study of living things",
+            "Study of animals",
+            "Study of plants"
+          ],
+          "correctOptionIndex": 0,
+          "correctOption": "Process by which green plant synthesize their foods using sunlight and CO2",
+          "points": 20
+        }
+      ],
+      "hard": [
+        {
+          "questionID": 1,
+          "question": "What is Biology",
+          "answerOptions": [
+            "Way of life",
+            "Study of living things",
+            "Study of animals",
+            "Study of plants"
+          ],
+          "correctOptionIndex": 1,
+          "correctOption": "Study of living things",
+          "points": 10
+        },
+        {
+          "questionID": 2,
+          "question": "What is Photosynthesis?",
+          "answerOptions": [
+            "Process by which green plant synthesize their foods using sunlight and CO2",
+            "Study of living things",
+            "Study of animals",
+            "Study of plants"
+          ],
+          "correctOptionIndex": 0,
+          "correctOption": "Process by which green plant synthesize their foods using sunlight and CO2",
+          "points": 20
+        },
+        {
+          "questionID": 3,
+          "question": "Carnivorous animals feed on .....",
+          "answerOptions": [
+            "Dead cells",
+            "Only animals",
+            "Only plants",
+            "Plants and animals"
+          ],
+          "correctOptionIndex": 3,
+          "correctOption": "Plants and animals",
+          "points": 15
+        },
+        {
+          "questionID": 4,
+          "question": "What is Biology",
+          "answerOptions": [
+            "Way of life",
+            "Study of living things",
+            "Study of animals",
+            "Study of plants"
+          ],
+          "correctOptionIndex": 1,
+          "correctOption": "Study of living things",
+          "points": 10
+        }
+      ]
+    }
+  }
+]
