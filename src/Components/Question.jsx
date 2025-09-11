@@ -1,5 +1,3 @@
-// import { useState } from "react";
-// import { useState } from "react";
 import styles from "./Question.module.css";
 
 const Question = ({
@@ -22,7 +20,6 @@ const Question = ({
         questionID: questionID,
       },
     });
-    // setSelectedAnswerTheme(answer);
   };
   return (
     <div className={`${styles["question-answer-group"]} marginB`}>
@@ -53,7 +50,6 @@ const AnswerOption = ({
   option,
   activeQuestionID,
   handleAnswer,
-  // setPickedAnswer,
   prevAnswer,
 }) => {
   return (
@@ -62,7 +58,6 @@ const AnswerOption = ({
         styles.optionBtn
       }`}
       onClick={() => {
-        // setPickedAnswer(option);
         handleAnswer(
           option,
           questions[activeQuestionID - 1].points,

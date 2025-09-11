@@ -39,16 +39,7 @@ const ReviewAnswer = ({ question, userResponses }) => {
             option !== question.correctOption && option !== choosenAnswer;
           return (
             <button
-              className={`${
-                //   option === question.correctOption
-                //     ? styles["correct-answer"]
-                //     : option !== choosenAnswer &&
-                //       option !== question.correctOption
-                //     ? styles["other-options"]
-                //     : styles["wrong-answer"]
-                // }
-                optionBtn
-              } ${
+              className={`${optionBtn} ${
                 isCorrectButNotSelected ? styles["correct-notSelected"] : ""
               } ${isCorrectAndSelected ? styles["correct-selected"] : ""} ${
                 isWrongAndSelected ? styles["wrong-selected"] : ""

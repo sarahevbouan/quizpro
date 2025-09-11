@@ -45,8 +45,6 @@ const Quiz = () => {
   const { difficultyLevel } = useContext(DifficultyLevelContext);
 
   const quizReducer = (state, action) => {
-    console.log("Action:", action);
-    console.log("Prev state:", state);
     switch (action.type) {
       case "loading":
         return { ...state, status: "loading" };
@@ -137,7 +135,7 @@ const Quiz = () => {
           userResponses: state.userResponses,
         };
       default:
-        console.log("yeah");
+        console.log("Unspecified action type");
     }
   };
   const [
@@ -184,7 +182,6 @@ const Quiz = () => {
     }
     setSessionStorageItem("subjectId", subjectId);
     setSessionStorageItem("timeRemaining", timeRemaining);
-    // setSessionStorageItem("isSubmitted", isSubmitted);
   }, [
     activeQuestionID,
     status,
@@ -200,16 +197,6 @@ const Quiz = () => {
       removeSessionStorageItem("userResponses");
     }
   }, [timeRemaining]);
-  // console.log(status);
-  // console.log({
-  //   questions,
-  //   status,
-  //   activeQuestionID,
-  //   selectedAnswer,
-  //   timeRemaining,
-  //   userResponses,
-  //   isSubmitted,
-  // });
   return (
     <div className={`${styles["quiz-app"]}`}>
       <div>
@@ -276,7 +263,6 @@ const Quiz = () => {
                   <ActionButton
                     dispatchedAction={dispatch}
                     typeOfAction="nextQuestion"
-                    // activeQuestionID={activeQuestionID}
                   >
                     Next
                   </ActionButton>

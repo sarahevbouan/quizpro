@@ -1,15 +1,7 @@
 .levelContainer {
-  /* color: initial; */
   width: 100%;
   max-width: 700px;
-  /* display: flex; */
-  /* flex-direction: column; */
-  /* justify-content: center; */
   margin: auto;
-}
-
-.levelContainer > * {
-  /* width: 100%; */
 }
 
 .levelContainer h2 {
@@ -21,7 +13,6 @@
   margin-bottom: 1rem;
   display: flex;
   gap: 1rem;
-  /* justify-content: space-between; */
   align-items: center;
   background-color: #ffffff;
   padding: 1rem;
@@ -32,9 +23,6 @@
 .levelContainer button {
   margin-top: 1rem;
   min-width: 100%;
-  /* text-align: center; */
-  /* margin: auto; */
-  /* align-self: center; */
 }
 
 .level:hover {
@@ -47,7 +35,6 @@
 
 .level a:hover {
   color: #d1a516;
-  /* opacity: 1; */
 }
 
 .level img {

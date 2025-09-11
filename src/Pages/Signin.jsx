@@ -1,4 +1,3 @@
-// import { useContext, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { UserContext } from "../Contexts/UserContext";
 import Form from "../Components/Form";
@@ -6,10 +5,9 @@ import { useContext } from "react";
 import { getLocalStorageItem, setSessionStorageItem } from "../Utils/utils";
 import Navbar from "../Components/Navbar";
 import styles from "./InputForms.module.css";
-import graduationHat from "../assets/images/graduation-hat.png";
 
 const Signin = () => {
-  const { activeUserId, setActiveUserId } = useContext(UserContext);
+  const { setActiveUserId } = useContext(UserContext);
   const navigate = useNavigate();
   const handleSignin = (username, password, setInvalidUserAlert) => {
     const parsedUserDB = getLocalStorageItem("userDB");
@@ -39,9 +37,6 @@ const Signin = () => {
             Don't have an account? <Link to="/signup">Sign up</Link>
           </p>
         </div>
-        {/* <div className="rightPanel">
-          <img className="heroImg" src={graduationHat} alt="" />
-        </div> */}
       </div>
     </div>
   );

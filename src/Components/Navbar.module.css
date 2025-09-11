@@ -3,19 +3,15 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* align-items: center; */
   width: 100%;
-  /* margin: auto; */
   padding: 0 8px;
   height: 4rem;
   position: fixed;
   top: 0;
   left: 0;
   z-index: 1000;
-  /* padding-top: 2rem; */
   border-bottom: 1px solid #e2cdb8;
   font-size: 14px;
-  /* height: 4rem; */
 }
 
 .brand {
@@ -33,16 +29,7 @@
 
 .user-details {
   position: relative;
-  /* top: 0; */
-  /* right: 0; */
-  /* width: 100vw; */
-  /* display: flex; */
   flex-direction: column;
-  /* align-items: center; */
-  /* height: 70vh; */
-  /* align-items: end; */
-  /* z-index: 2000; */
-  /* background-color: white; */
 }
 
 .user-icon {
@@ -73,9 +60,6 @@
   background-color: #fff;
   display: flex;
   flex-direction: column;
-  /* backdrop-filter: blur(100vw); */
-  /* align-items: center; */
-  /* box-shadow: 1px 1px 150px 150px rgba(255, 255, 255, 0.6); */
 }
 
 .closeDrawer {
@@ -91,16 +75,6 @@
   margin-top: 8px;
   cursor: pointer;
 }
-
-/* .modal {
-  position: absolute;
-  top: 4rem;
-  left: 0;
-  width: 150%;
-  height: 150%;
-  box-shadow: 1px 1px 1px grey;
-  backdrop-filter: blur(10px);
-} */
 
 .btn {
   border: 1px solid #ffffff;

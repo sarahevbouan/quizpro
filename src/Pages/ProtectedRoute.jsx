@@ -1,4 +1,3 @@
-import { useContext } from "react";
 import { getSessionStorageItem } from "../Utils/utils";
 import Home from "./Home";
 import { Navigate, Outlet } from "react-router-dom";

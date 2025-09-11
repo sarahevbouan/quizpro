@@ -3,7 +3,6 @@ import SubjectList from "../Components/SubjectList";
 import { UserContext } from "../Contexts/UserContext";
 import { Link } from "react-router-dom";
 import styles from "./Home.module.css";
-// import { container } from "../Components/Quiz.module.css";
 import Navbar from "../Components/Navbar";
 import Button from "../Components/Button";
 import heroImg from "../assets/images/hero.png";

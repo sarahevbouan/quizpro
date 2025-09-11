@@ -16,12 +16,11 @@ const ActionButton = ({
   userResponses = null,
   questions = null,
   subjectId = null,
-  // logResult = false,
 }) => {
   const { activeUserId } = useContext(UserContext);
   const { difficultyLevel } = useContext(DifficultyLevelContext);
   const previousResultLog = getLocalStorageItem("resultLog");
-  console.log(previousResultLog);
+
   const handleClick = () => {
     dispatchedAction({ type: typeOfAction });
     if (userResponses) {
@@ -56,12 +55,8 @@ const ActionButton = ({
           : [...previousResultLog, userResultLog]
         : [userResultLog];
 
-      // localStorage.setItem("resultLog", JSON.stringify(resultLog.current));
       setLocalStorageItem("resultLog", resultLog.current);
-      // removeLocalStorageItem("activeQuestionID");
       removeSessionStorageItem("userResponses");
-      // removeLocalStorageItem("activeQuestionID");
-      // removeLocalStorageItem("activeQuestionID");
     }
   };
   return <Button handleClick={handleClick}>{children}</Button>;

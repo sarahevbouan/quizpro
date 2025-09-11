@@ -1,10 +1,6 @@
-import { useContext, useEffect, useState } from "react";
+import { useContext, useEffect } from "react";
 import { DifficultyLevelContext } from "../Contexts/DifficultyLevelContext";
-import {
-  removeSessionStorageItem,
-  setSessionStorageItem,
-  toSentenceCase,
-} from "../Utils/utils";
+import { setSessionStorageItem, toSentenceCase } from "../Utils/utils";
 import styles from "./SubjectLevel.module.css";
 import { Link, useParams } from "react-router-dom";
 import Navbar from "./Navbar";
@@ -12,7 +8,6 @@ import Button from "./Button";
 
 const SubjectLevel = () => {
   const { subjectId } = useParams();
-  //   const [questionLevels, setQuestionLevels] = useState(false);
   const { difficultyLevel, setDifficultyLevel } = useContext(
     DifficultyLevelContext
   );

@@ -1,12 +1,6 @@
 import { Link } from "react-router-dom";
 import styles from "./SubjectList.module.css";
-import { useContext, useEffect, useState } from "react";
-import { DifficultyLevelContext } from "../Contexts/DifficultyLevelContext";
-import {
-  removeSessionStorageItem,
-  setSessionStorageItem,
-  toSentenceCase,
-} from "../Utils/utils";
+import { removeSessionStorageItem, toSentenceCase } from "../Utils/utils";
 
 const SubjectList = () => {
   const subjects = ["Biology", "Chemistry", "Computer Science", "English"];
@@ -25,14 +19,6 @@ const SubjectList = () => {
 export default SubjectList;
 
 const Subject = ({ subject }) => {
-  // const [questionLevels, setQuestionLevels] = useState(false);
-  // const { difficultyLevel, setDifficultyLevel } = useContext(
-  //   DifficultyLevelContext
-  // );
-  // const difficultyLevels = ["Easy", "Medium", "Hard"];
-  // useEffect(() => {
-  //   setSessionStorageItem("quizDifficultyLevel", difficultyLevel);
-  // }, [difficultyLevel]);
   const handleClick = () => {
     removeSessionStorageItem("status");
   };
@@ -44,18 +30,6 @@ const Subject = ({ subject }) => {
         </div>
         <div>
           <p className={styles.subjectTitle}>{toSentenceCase(subject)}</p>
-          {/* {questionLevels && (
-            <ul className={styles.level}>
-              {difficultyLevels.map((level) => (
-                <li
-                  key={level}
-                  onClick={() => setDifficultyLevel(level.toLowerCase())}
-                >
-                  <Link to={`/quiz/${subject.toLowerCase()}`}>{level}</Link>
-                </li>
-              ))}
-            </ul>
-          )} */}
         </div>
       </div>
       <Link to={`/quizlevel/${subject.toLowerCase()}`} onClick={handleClick}>

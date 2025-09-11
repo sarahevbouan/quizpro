@@ -1,4 +1,4 @@
-import { useContext, useEffect, useRef, useState } from "react";
+import { useContext, useState } from "react";
 import { Link, NavLink, useNavigate } from "react-router-dom";
 import styles from "./Navbar.module.css";
 import { UserContext } from "../Contexts/UserContext";
@@ -12,19 +12,6 @@ const Navbar = () => {
   const handleMenu = () => {
     setIsOpen((prev) => !prev);
   };
-  const navDropDownRef = useRef(null);
-  // useEffect(() => {
-  //   window.addEventListener("click", (e) => {
-  //     if (
-  //       window.getComputedStyle(navDropDownRef.current).height !== "0px" &&
-  //       e.target.id !== "nav-dropdown" &&
-  //       e.target.parentElement?.id !== "nav-dropdown" &&
-  //       e.target.parentElement?.parentElement?.id !== "nav-dropdown"
-  //     ) {
-  //       console.log("yeah");
-  //     }
-  //   });
-  // }, []);
 
   return (
     <nav className={styles["navbar"]}>
@@ -53,7 +40,6 @@ const Navbar = () => {
               </svg>
             </p>
             <ul
-              ref={navDropDownRef}
               id="nav-dropdown"
               className={`${styles["user-dropdown"]} ${
                 styles[isOpen ? "openDrawer" : "closeDrawer"]
@@ -77,7 +63,6 @@ const Navbar = () => {
               >
                 Logout
               </Button>
-              {/* <Button>Sign out</Button> */}
             </ul>
           </li>
         ) : (

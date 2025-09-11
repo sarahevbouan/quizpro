@@ -6,7 +6,7 @@ import { UserContext } from "../Contexts/UserContext";
 import { getLocalStorageItem, setLocalStorageItem } from "../Utils/utils";
 
 const Profile = () => {
-  const { activeUserId, setActiveUserId } = useContext(UserContext);
+  const { activeUserId } = useContext(UserContext);
   const [name, setName] = useState(activeUserId);
   const [password, setPassword] = useState("");
   const [editPassword, setEditPassword] = useState(true);

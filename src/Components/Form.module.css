@@ -1,12 +1,6 @@
 .form {
   display: flex;
   flex-direction: column;
-  /* width: 60%; */
-  /* margin: auto; */
-  /* gap: 1rem; */
-  /* background-color: #ffffff; */
-  /* padding: 20px; */
-  /* border-radius: 3px; */
 }
 
 .form label {

@@ -1,9 +1,7 @@
 import { useEffect } from "react";
 import styles from "./Header.module.css";
-// import { removeSessionStorageItem } from "../Utils/utils";
 
 const Header = ({ questions, activeQuestionID, timeRemaining, onTimeTick }) => {
-  //   const [timeTick, setTimeTick] = useState(startingTime);
   const minutesLeft = Math.floor(timeRemaining / 60);
   const secondsLeft = timeRemaining % 60;
 

@@ -27,26 +27,14 @@
   border-top: 4px solid #bac8df;
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
   align-items: center;
 }
 
 .result:hover {
-  /* transform: translateY(10px); */
   box-shadow: 0 0 10px 1px rgb(175, 174, 174);
 }
 
-.result:nth-child(odd) {
-  /* border-bottom: 2px solid #3b82f6; */
-}
-
-.result:nth-child(even) {
-  /* border-top: 2px solid #3b82f6; */
-}
-
 .subject {
-  /* font-size: 20px; */
-  /* justify-self: first baseline; */
   margin: 1rem 0 3rem;
   font-weight: bold;
 }

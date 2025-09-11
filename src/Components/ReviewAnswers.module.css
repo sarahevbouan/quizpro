@@ -5,9 +5,6 @@
   border-radius: 8px;
   text-align: left;
   border: none;
-  /* margin-bottom: 1rem; */
-  /* background-color: white; */
-  /* transition: background-color 2s; */
 }
 
 .correct::after {
@@ -41,10 +38,6 @@
 .question-answer-group .wrong-notSelected {
   color: grey;
 }
-
-/* .choosenAnswer::after {
-  content: "your answer";
-} */
 
 .noSelection {
   float: right;

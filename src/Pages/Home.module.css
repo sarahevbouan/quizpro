@@ -1,15 +1,3 @@
-/* .container {
-  width: 90%;
-  display: flex;
-  gap: 2rem;
-  margin: 4rem auto;
-}
-
-.container > * {
-  flex: 1;
-  border: 1px solid red;
-} */
-
 .heroImg {
   width: 90%;
 }
@@ -69,18 +57,12 @@
 
 .start {
   text-align: center;
-  /* border-top: 1px solid blue; */
   margin: 2rem 0 1rem 0;
 }
 
 .start h3 {
   text-align: center;
   color: #d1a516;
-  /* padding: 8px 2px; */
-  /* border-bottom: 5px solid #d1a516; */
-  /* border-radius: 2px; */
-  /* width: fit-content; */
-  /* align-self: center; */
 }
 
 @media screen and (min-width: 768px) {
