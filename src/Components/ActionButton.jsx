@@ -2,9 +2,9 @@ import { useContext } from "react";
 import { UserContext } from "../Contexts/UserContext";
 import { DifficultyLevelContext } from "../Contexts/DifficultyLevelContext";
 import {
-  getLocalStorageItem,
-  removeSessionStorageItem,
-  setLocalStorageItem,
+  getStorageItem,
+  removeStorageItem,
+  setStorageItem,
 } from "../Utils/utils";
 import Button from "./Button";
 
@@ -19,7 +19,7 @@ const ActionButton = ({
 }) => {
   const { activeUserId } = useContext(UserContext);
   const { difficultyLevel } = useContext(DifficultyLevelContext);
-  const previousResultLog = getLocalStorageItem("resultLog");
+  const previousResultLog = getStorageItem(localStorage, "resultLog");
 
   const handleClick = () => {
     dispatchedAction({ type: typeOfAction });
@@ -55,8 +55,9 @@ const ActionButton = ({
           : [...previousResultLog, userResultLog]
         : [userResultLog];
 
-      setLocalStorageItem("resultLog", resultLog.current);
-      removeSessionStorageItem("userResponses");
+      setStorageItem(localStorage, "resultLog", resultLog.current);
+      setStorageItem(sessionStorage, "userPreviousResponses", userResponses);
+      removeStorageItem(sessionStorage, "userResponses");
     }
   };
   return <Button handleClick={handleClick}>{children}</Button>;

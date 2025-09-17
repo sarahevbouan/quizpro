@@ -1,6 +1,6 @@
 import { useContext, useEffect } from "react";
 import { DifficultyLevelContext } from "../Contexts/DifficultyLevelContext";
-import { setSessionStorageItem, toSentenceCase } from "../Utils/utils";
+import { setStorageItem, toSentenceCase } from "../Utils/utils";
 import styles from "./SubjectLevel.module.css";
 import { Link, useParams } from "react-router-dom";
 import Navbar from "./Navbar";
@@ -13,7 +13,7 @@ const SubjectLevel = () => {
   );
   const difficultyLevels = ["Easy", "Medium", "Hard"];
   useEffect(() => {
-    setSessionStorageItem("quizDifficultyLevel", difficultyLevel);
+    setStorageItem(sessionStorage, "quizDifficultyLevel", difficultyLevel);
   }, [difficultyLevel]);
   return (
     <div>

@@ -1,7 +1,7 @@
 import Form from "../Components/Form";
 import { Link, useNavigate } from "react-router-dom";
 import Navbar from "../Components/Navbar";
-import { getLocalStorageItem, setLocalStorageItem } from "../Utils/utils";
+import { getStorageItem, setStorageItem } from "../Utils/utils";
 import styles from "./InputForms.module.css";
 
 const Signup = () => {
@@ -11,7 +11,7 @@ const Signup = () => {
       setInvalidUserAlert("Password must be at least six digits");
       return;
     }
-    const userDB = getLocalStorageItem("userDB");
+    const userDB = getStorageItem(localStorage, "userDB");
     const parsedUserDB = userDB ? userDB : [];
     const retrievedUser = parsedUserDB.find(
       (user) => user.username === username
@@ -19,7 +19,10 @@ const Signup = () => {
     if (retrievedUser) {
       setInvalidUserAlert("User already exist");
     } else {
-      setLocalStorageItem("userDB", [...parsedUserDB, { username, password }]);
+      setStorageItem(localStorage, "userDB", [
+        ...parsedUserDB,
+        { username, password },
+      ]);
       setInvalidUserAlert("");
       navigate("/signin");
     }

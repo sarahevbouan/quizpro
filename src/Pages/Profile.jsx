@@ -3,7 +3,7 @@ import Navbar from "../Components/Navbar";
 import styles from "./Profile.module.css";
 import Button from "../Components/Button";
 import { UserContext } from "../Contexts/UserContext";
-import { getLocalStorageItem, setLocalStorageItem } from "../Utils/utils";
+import { getStorageItem, setStorageItem } from "../Utils/utils";
 
 const Profile = () => {
   const { activeUserId } = useContext(UserContext);
@@ -16,11 +16,11 @@ const Profile = () => {
       alert("Password must be at least six digits");
       return;
     }
-    const userDB = getLocalStorageItem("userDB");
+    const userDB = getStorageItem(localStorage, "userDB");
     const updatedUserDB = userDB?.filter(
       (user) => user.username !== activeUserId
     );
-    setLocalStorageItem("userDB", [
+    setStorageItem(localStorage, "userDB", [
       ...updatedUserDB,
       { username: name, password: userPassword },
     ]);

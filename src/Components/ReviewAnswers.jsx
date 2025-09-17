@@ -1,14 +1,20 @@
 import styles from "./ReviewAnswers.module.css";
 import { question as questionStyle, optionBtn } from "./Question.module.css";
+import { getStorageItem } from "../Utils/utils";
 
 const ReviewAnswers = ({ questions, userResponses }) => {
+  const userPreviousResponses = getStorageItem(
+    sessionStorage,
+    "userPreviousResponses"
+  );
+  const previousResponses = userPreviousResponses || userResponses;
   return (
     <div className={styles["question-answer-group"]}>
       {questions.map((question) => (
         <ReviewAnswer
           key={question.questionID}
           question={question}
-          userResponses={userResponses}
+          userResponses={previousResponses}
         />
       ))}
     </div>

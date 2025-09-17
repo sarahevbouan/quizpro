@@ -2,7 +2,7 @@ import { useContext, useState } from "react";
 import { Link, NavLink, useNavigate } from "react-router-dom";
 import styles from "./Navbar.module.css";
 import { UserContext } from "../Contexts/UserContext";
-import { removeSessionStorageItem } from "../Utils/utils";
+import { removeStorageItem } from "../Utils/utils";
 import Button from "./Button";
 
 const Navbar = () => {
@@ -57,7 +57,7 @@ const Navbar = () => {
               <Button
                 handleClick={() => {
                   setActiveUserId("");
-                  removeSessionStorageItem("activeUserId");
+                  removeStorageItem(sessionStorage, "activeUserId");
                   navigate("/");
                 }}
               >

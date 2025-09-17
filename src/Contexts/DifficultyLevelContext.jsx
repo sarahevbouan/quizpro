@@ -1,10 +1,13 @@
 import { createContext, useState } from "react";
-import { getSessionStorageItem } from "../Utils/utils";
+import { getStorageItem } from "../Utils/utils";
 
 export const DifficultyLevelContext = createContext();
 
 const DifficultyLevelContextProvider = ({ children }) => {
-  const retrievedDifficultyLevel = getSessionStorageItem("quizDifficultyLevel");
+  const retrievedDifficultyLevel = getStorageItem(
+    sessionStorage,
+    "quizDifficultyLevel"
+  );
   const [difficultyLevel, setDifficultyLevel] = useState(
     retrievedDifficultyLevel ? retrievedDifficultyLevel : "easy"
   );

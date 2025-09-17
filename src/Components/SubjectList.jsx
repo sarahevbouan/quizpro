@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import styles from "./SubjectList.module.css";
-import { removeSessionStorageItem, toSentenceCase } from "../Utils/utils";
+import { removeStorageItem, toSentenceCase } from "../Utils/utils";
 
 const SubjectList = () => {
   const subjects = ["Biology", "Chemistry", "Computer Science", "English"];
@@ -20,7 +20,7 @@ export default SubjectList;
 
 const Subject = ({ subject }) => {
   const handleClick = () => {
-    removeSessionStorageItem("status");
+    removeStorageItem(sessionStorage, "status");
   };
   return (
     <div className={styles.listItem}>

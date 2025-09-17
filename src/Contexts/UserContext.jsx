@@ -1,13 +1,13 @@
 import { createContext, useEffect, useState } from "react";
-import { getSessionStorageItem, setSessionStorageItem } from "../Utils/utils";
+import { getStorageItem, setStorageItem } from "../Utils/utils";
 
 export const UserContext = createContext();
 
 const UserContextProvider = ({ children }) => {
-  const retrievedUserId = getSessionStorageItem("activeUserId");
+  const retrievedUserId = getStorageItem(sessionStorage, "activeUserId");
   const [activeUserId, setActiveUserId] = useState(retrievedUserId);
   useEffect(() => {
-    setSessionStorageItem("activeUserId", activeUserId);
+    setStorageItem(sessionStorage, "activeUserId", activeUserId);
   }, [activeUserId]);
   return (
     <UserContext.Provider value={{ activeUserId, setActiveUserId }}>

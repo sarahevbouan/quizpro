@@ -1,17 +1,12 @@
-import { useContext, useState } from "react";
+import { useContext } from "react";
 import { UserContext } from "../Contexts/UserContext";
-import {
-  getLocalStorageItem,
-  setLocalStorageItem,
-  toSentenceCase,
-} from "../Utils/utils";
+import { getStorageItem, setStorageItem, toSentenceCase } from "../Utils/utils";
 import Navbar from "./Navbar";
 import styles from "./UserResultLog.module.css";
 
 const UserResultLog = () => {
   const { activeUserId } = useContext(UserContext);
-  const [isEmpty, setIsEmpty] = useState(false);
-  const resultLog = getLocalStorageItem("resultLog");
+  const resultLog = getStorageItem(localStorage, "resultLog");
   const parsedResultLog = resultLog ? resultLog : [];
   const userResultLog = parsedResultLog.find(
     (log) => log.userID === activeUserId
@@ -27,8 +22,8 @@ const UserResultLog = () => {
               <span
                 className={styles.clear}
                 onClick={() => {
-                  setIsEmpty(true);
-                  setLocalStorageItem(
+                  setStorageItem(
+                    localStorage,
                     "resultLog",
                     resultLog.filter((log) => log.userID !== activeUserId)
                   );

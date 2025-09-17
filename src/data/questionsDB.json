@@ -45,163 +45,146 @@
         },
         {
           "questionID": 4,
-          "question": "What is Biology",
-          "answerOptions": [
-            "Way of life",
-            "Study of living things",
-            "Study of animals",
-            "Study of plants"
-          ],
+          "question": "What is the basic unit of life?",
+          "answerOptions": ["Atom", "Cell", "Molecule", "Organ"],
           "correctOptionIndex": 1,
-          "correctOption": "Study of living things",
-          "points": 10
+          "correctOption": "Cell",
+          "points": 20
         },
         {
           "questionID": 5,
-          "question": "What is Photosynthesis?",
-          "answerOptions": [
-            "Process by which green plant synthesize their foods using sunlight and CO2",
-            "Study of living things",
-            "Study of animals",
-            "Study of plants"
-          ],
-          "correctOptionIndex": 0,
-          "correctOption": "Process by which green plant synthesize their foods using sunlight and CO2",
+          "question": "Which organ is responsible for pumping blood in the human body?",
+          "answerOptions": ["Brain", "Liver", "Heart", "Lung"],
+          "correctOptionIndex": 2,
+          "correctOption": "Heart",
           "points": 20
         },
         {
           "questionID": 6,
-          "question": "Omnivorous animals feed on .....",
-          "answerOptions": [
-            "Dead cells",
-            "Only animals",
-            "Only plants",
-            "Plants and animals"
-          ],
-          "correctOptionIndex": 3,
-          "correctOption": "Plants and animals",
-          "points": 15
+          "question": "Which part of a plant absorbs water from the soil?",
+          "answerOptions": ["Leaf", "Stem", "Root", "Flower"],
+          "correctOptionIndex": 2,
+          "correctOption": "Root",
+          "points": 20
         }
       ],
       "medium": [
         {
           "questionID": 1,
-          "question": "What is Biology",
-          "answerOptions": [
-            "Way of life",
-            "Study of living things",
-            "Study of animals",
-            "Study of plants"
-          ],
+          "question": "What molecule carries genetic information in cells?",
+          "answerOptions": ["RNA", "DNA", "Protein", "Lipid"],
           "correctOptionIndex": 1,
-          "correctOption": "Study of living things",
-          "points": 10
+          "correctOption": "DNA",
+          "points": 20
         },
         {
           "questionID": 2,
-          "question": "What is Photosynthesis?",
+          "question": "Which process involves the division of a cell into two identical daughter cells?",
           "answerOptions": [
-            "Process by which green plant synthesize their foods using sunlight and CO2",
-            "Study of living things",
-            "Study of animals",
-            "Study of plants"
+            "Meiosis",
+            "Mitosis",
+            "Fertilization",
+            "Transcription"
           ],
-          "correctOptionIndex": 0,
-          "correctOption": "Process by which green plant synthesize their foods using sunlight and CO2",
+          "correctOptionIndex": 1,
+          "correctOption": "Mitosis",
           "points": 20
         },
         {
           "questionID": 3,
-          "question": "Omnivorous animals feed on .....",
+          "question": "What is the primary function of red blood cells?",
           "answerOptions": [
-            "Dead cells",
-            "Only animals",
-            "Only plants",
-            "Plants and animals"
+            "Fight infections",
+            "Transport oxygen",
+            "Clot blood",
+            "Digest food"
           ],
-          "correctOptionIndex": 3,
-          "correctOption": "Plants and animals",
-          "points": 15
+          "correctOptionIndex": 1,
+          "correctOption": "Transport oxygen",
+          "points": 20
         },
         {
           "questionID": 4,
-          "question": "What is Biology",
+          "question": "Which organelle is known as the powerhouse of the cell?",
           "answerOptions": [
-            "Way of life",
-            "Study of living things",
-            "Study of animals",
-            "Study of plants"
+            "Nucleus",
+            "Ribosome",
+            "Mitochondrion",
+            "Golgi apparatus"
           ],
-          "correctOptionIndex": 1,
-          "correctOption": "Study of living things",
-          "points": 10
+          "correctOptionIndex": 2,
+          "correctOption": "Mitochondrion",
+          "points": 20
         },
         {
           "questionID": 5,
-          "question": "What is Photosynthesis?",
+          "question": "What type of symbiotic relationship benefits both organisms?",
           "answerOptions": [
-            "Process by which green plant synthesize their foods using sunlight and CO2",
-            "Study of living things",
-            "Study of animals",
-            "Study of plants"
+            "Parasitism",
+            "Commensalism",
+            "Mutualism",
+            "Predation"
           ],
-          "correctOptionIndex": 0,
-          "correctOption": "Process by which green plant synthesize their foods using sunlight and CO2",
+          "correctOptionIndex": 2,
+          "correctOption": "Mutualism",
           "points": 20
         }
       ],
       "hard": [
         {
           "questionID": 1,
-          "question": "What is Biology",
-          "answerOptions": [
-            "Way of life",
-            "Study of living things",
-            "Study of animals",
-            "Study of plants"
-          ],
-          "correctOptionIndex": 1,
-          "correctOption": "Study of living things",
-          "points": 10
+          "question": "What is the primary source of energy for ATP production in aerobic respiration?",
+          "answerOptions": ["Glucose", "Fructose", "Lactose", "Sucrose"],
+          "correctOptionIndex": 0,
+          "correctOption": "Glucose",
+          "points": 20
         },
         {
           "questionID": 2,
-          "question": "What is Photosynthesis?",
+          "question": "Which phase of meiosis results in the separation of homologous chromosomes?",
           "answerOptions": [
-            "Process by which green plant synthesize their foods using sunlight and CO2",
-            "Study of living things",
-            "Study of animals",
-            "Study of plants"
+            "Prophase I",
+            "Anaphase I",
+            "Metaphase II",
+            "Telophase II"
           ],
-          "correctOptionIndex": 0,
-          "correctOption": "Process by which green plant synthesize their foods using sunlight and CO2",
+          "correctOptionIndex": 1,
+          "correctOption": "Anaphase I",
           "points": 20
         },
         {
           "questionID": 3,
-          "question": "Omnivorous animals feed on .....",
+          "question": "What is the role of the enzyme DNA polymerase in DNA replication?",
           "answerOptions": [
-            "Dead cells",
-            "Only animals",
-            "Only plants",
-            "Plants and animals"
+            "Unwinds the DNA helix",
+            "Adds nucleotides to the growing DNA strand",
+            "Breaks hydrogen bonds",
+            "Seals nicks in the DNA backbone"
           ],
-          "correctOptionIndex": 3,
-          "correctOption": "Plants and animals",
-          "points": 15
+          "correctOptionIndex": 1,
+          "correctOption": "Adds nucleotides to the growing DNA strand",
+          "points": 20
         },
         {
           "questionID": 4,
-          "question": "What is Biology",
+          "question": "Which structure in the human respiratory system is the site of gas exchange?",
+          "answerOptions": ["Bronchi", "Trachea", "Alveoli", "Larynx"],
+          "correctOptionIndex": 2,
+          "correctOption": "Alveoli",
+          "points": 20
+        },
+        {
+          "questionID": 5,
+          "question": "What is the primary difference between prokaryotic and eukaryotic cells?",
           "answerOptions": [
-            "Way of life",
-            "Study of living things",
-            "Study of animals",
-            "Study of plants"
+            "Prokaryotes lack a nucleus",
+            "Eukaryotes lack DNA",
+            "Prokaryotes have organelles",
+            "Eukaryotes are always unicellular"
           ],
-          "correctOptionIndex": 1,
-          "correctOption": "Study of living things",
-          "points": 10
+          "correctOptionIndex": 0,
+          "correctOption": "Prokaryotes lack a nucleus",
+          "points": 20
         }
       ]
     }
@@ -213,202 +196,147 @@
       "easy": [
         {
           "questionID": 1,
-          "question": "What is Biology",
-          "answerOptions": [
-            "Way of life",
-            "Study of living things",
-            "Study of animals",
-            "Study of plants"
-          ],
+          "question": "What is the chemical symbol for water?",
+          "answerOptions": ["O2", "H2O", "CO2", "NaCl"],
           "correctOptionIndex": 1,
-          "correctOption": "Study of living things",
-          "points": 10
+          "correctOption": "H2O",
+          "points": 20
         },
         {
           "questionID": 2,
-          "question": "What is Photosynthesis?",
-          "answerOptions": [
-            "Process by which green plant synthesize their foods using sunlight and CO2",
-            "Study of living things",
-            "Study of animals",
-            "Study of plants"
-          ],
-          "correctOptionIndex": 0,
-          "correctOption": "Process by which green plant synthesize their foods using sunlight and CO2",
+          "question": "Which element is a noble gas?",
+          "answerOptions": ["Oxygen", "Helium", "Nitrogen", "Carbon"],
+          "correctOptionIndex": 1,
+          "correctOption": "Helium",
           "points": 20
         },
         {
           "questionID": 3,
-          "question": "Omnivorous animals feed on .....",
-          "answerOptions": [
-            "Dead cells",
-            "Only animals",
-            "Only plants",
-            "Plants and animals"
-          ],
-          "correctOptionIndex": 3,
-          "correctOption": "Plants and animals",
-          "points": 15
-        },
-        {
-          "questionID": 4,
-          "question": "What is Biology",
-          "answerOptions": [
-            "Way of life",
-            "Study of living things",
-            "Study of animals",
-            "Study of plants"
-          ],
-          "correctOptionIndex": 1,
-          "correctOption": "Study of living things",
-          "points": 10
-        },
-        {
-          "questionID": 5,
-          "question": "What is Photosynthesis?",
-          "answerOptions": [
-            "Process by which green plant synthesize their foods using sunlight and CO2",
-            "Study of living things",
-            "Study of animals",
-            "Study of plants"
-          ],
+          "question": "What is the atomic number of carbon?",
+          "answerOptions": ["6", "8", "12", "14"],
           "correctOptionIndex": 0,
-          "correctOption": "Process by which green plant synthesize their foods using sunlight and CO2",
+          "correctOption": "6",
           "points": 20
         },
         {
-          "questionID": 6,
-          "question": "Carnivorous animals feed on .....",
+          "questionID": 4,
+          "question": "Which state of matter has a definite volume but no definite shape?",
+          "answerOptions": ["Solid", "Liquid", "Gas", "Plasma"],
+          "correctOptionIndex": 1,
+          "correctOption": "Liquid",
+          "points": 20
+        },
+        {
+          "questionID": 5,
+          "question": "What type of reaction produces heat?",
           "answerOptions": [
-            "Dead cells",
-            "Only animals",
-            "Only plants",
-            "Plants and animals"
+            "Endothermic",
+            "Exothermic",
+            "Neutralization",
+            "Decomposition"
           ],
-          "correctOptionIndex": 3,
-          "correctOption": "Plants and animals",
-          "points": 15
+          "correctOptionIndex": 1,
+          "correctOption": "Exothermic",
+          "points": 20
         }
       ],
       "medium": [
         {
           "questionID": 1,
-          "question": "What is Biology",
-          "answerOptions": [
-            "Way of life",
-            "Study of living things",
-            "Study of animals",
-            "Study of plants"
-          ],
+          "question": "What is the pH of a neutral solution?",
+          "answerOptions": ["0", "7", "14", "10"],
           "correctOptionIndex": 1,
-          "correctOption": "Study of living things",
-          "points": 10
+          "correctOption": "7",
+          "points": 20
         },
         {
           "questionID": 2,
-          "question": "What is Photosynthesis?",
-          "answerOptions": [
-            "Process by which green plant synthesize their foods using sunlight and CO2",
-            "Study of living things",
-            "Study of animals",
-            "Study of plants"
-          ],
-          "correctOptionIndex": 0,
-          "correctOption": "Process by which green plant synthesize their foods using sunlight and CO2",
+          "question": "Which type of bond involves the sharing of electrons?",
+          "answerOptions": ["Ionic", "Covalent", "Metallic", "Hydrogen"],
+          "correctOptionIndex": 1,
+          "correctOption": "Covalent",
           "points": 20
         },
         {
           "questionID": 3,
-          "question": "Omnivorous animals feed on .....",
-          "answerOptions": [
-            "Dead cells",
-            "Only animals",
-            "Only plants",
-            "Plants and animals"
-          ],
-          "correctOptionIndex": 3,
-          "correctOption": "Plants and animals",
-          "points": 15
+          "question": "What gas, discovered on the sun before Earth, is the second most abundant element in the universe?",
+          "answerOptions": ["Hydrogen", "Helium", "Oxygen", "Nitrogen"],
+          "correctOptionIndex": 1,
+          "correctOption": "Helium",
+          "points": 20
         },
         {
           "questionID": 4,
-          "question": "What is Biology",
+          "question": "What is the product of a neutralization reaction?",
           "answerOptions": [
-            "Way of life",
-            "Study of living things",
-            "Study of animals",
-            "Study of plants"
+            "Acid and base",
+            "Salt and water",
+            "Gas and solid",
+            "Metal and nonmetal"
           ],
           "correctOptionIndex": 1,
-          "correctOption": "Study of living things",
-          "points": 10
+          "correctOption": "Salt and water",
+          "points": 20
         },
         {
           "questionID": 5,
-          "question": "What is Photosynthesis?",
-          "answerOptions": [
-            "Process by which green plant synthesize their foods using sunlight and CO2",
-            "Study of living things",
-            "Study of animals",
-            "Study of plants"
-          ],
-          "correctOptionIndex": 0,
-          "correctOption": "Process by which green plant synthesize their foods using sunlight and CO2",
+          "question": "Which subatomic particle determines an element’s identity?",
+          "answerOptions": ["Neutron", "Proton", "Electron", "Quark"],
+          "correctOptionIndex": 1,
+          "correctOption": "Proton",
           "points": 20
         }
       ],
       "hard": [
         {
           "questionID": 1,
-          "question": "What is Biology",
-          "answerOptions": [
-            "Way of life",
-            "Study of living things",
-            "Study of animals",
-            "Study of plants"
-          ],
-          "correctOptionIndex": 1,
-          "correctOption": "Study of living things",
-          "points": 10
+          "question": "What is the oxidation state of chlorine in HClO4?",
+          "answerOptions": ["+1", "+5", "+7", "-1"],
+          "correctOptionIndex": 2,
+          "correctOption": "+7",
+          "points": 20
         },
         {
           "questionID": 2,
-          "question": "What is Photosynthesis?",
+          "question": "Which gas law relates pressure and volume at constant temperature?",
           "answerOptions": [
-            "Process by which green plant synthesize their foods using sunlight and CO2",
-            "Study of living things",
-            "Study of animals",
-            "Study of plants"
+            "Charles's Law",
+            "Boyle's Law",
+            "Gay-Lussac's Law",
+            "Avogadro's Law"
           ],
-          "correctOptionIndex": 0,
-          "correctOption": "Process by which green plant synthesize their foods using sunlight and CO2",
+          "correctOptionIndex": 1,
+          "correctOption": "Boyle's Law",
           "points": 20
         },
         {
           "questionID": 3,
-          "question": "Carnivorous animals feed on .....",
-          "answerOptions": [
-            "Dead cells",
-            "Only animals",
-            "Only plants",
-            "Plants and animals"
-          ],
-          "correctOptionIndex": 3,
-          "correctOption": "Plants and animals",
-          "points": 15
+          "question": "What is the hybridization of the carbon atom in methane (CH4)?",
+          "answerOptions": ["sp", "sp2", "sp3", "sp3d"],
+          "correctOptionIndex": 2,
+          "correctOption": "sp3",
+          "points": 20
         },
         {
           "questionID": 4,
-          "question": "What is Biology",
+          "question": "In a redox reaction, the reducing agent:?",
           "answerOptions": [
-            "Way of life",
-            "Study of living things",
-            "Study of animals",
-            "Study of plants"
+            "Gains electrons",
+            "Remains unchanged",
+            "Increases in oxidation state",
+            "Loses electrons"
           ],
-          "correctOptionIndex": 1,
-          "correctOption": "Study of living things",
-          "points": 10
+          "correctOptionIndex": 3,
+          "correctOption": "Loses electrons",
+          "points": 20
+        },
+        {
+          "questionID": 5,
+          "question": "What is the molarity of a solution containing 0.5 moles of NaCl in 2 liters of solution?",
+          "answerOptions": ["0.25 M", "0.5 M", "1.0 M", "2.0 M"],
+          "correctOptionIndex": 0,
+          "correctOption": "0.25 M",
+          "points": 20
         }
       ]
     }
@@ -421,202 +349,177 @@
       "easy": [
         {
           "questionID": 1,
-          "question": "What is Biology",
+          "question": "What does CPU stand for?",
           "answerOptions": [
-            "Way of life",
-            "Study of living things",
-            "Study of animals",
-            "Study of plants"
+            "Computer Personal Unit",
+            "Central Program Utility",
+            "Control Processing Unit",
+            "Central Processing Unit"
           ],
-          "correctOptionIndex": 1,
-          "correctOption": "Study of living things",
-          "points": 10
+          "correctOptionIndex": 3,
+          "correctOption": "Central Processing Unit",
+          "points": 20
         },
         {
           "questionID": 2,
-          "question": "What is Photosynthesis?",
+          "question": "Which of these is an example of an operating system?",
           "answerOptions": [
-            "Process by which green plant synthesize their foods using sunlight and CO2",
-            "Study of living things",
-            "Study of animals",
-            "Study of plants"
+            "Microsoft Word",
+            "Google Chrome",
+            "Windows",
+            "Python"
           ],
-          "correctOptionIndex": 0,
-          "correctOption": "Process by which green plant synthesize their foods using sunlight and CO2",
+          "correctOptionIndex": 2,
+          "correctOption": "Windows",
           "points": 20
         },
         {
           "questionID": 3,
-          "question": "Carnivorous animals feed on .....",
+          "question": "What is the purpose of a web browser?",
           "answerOptions": [
-            "Dead cells",
-            "Only animals",
-            "Only plants",
-            "Plants and animals"
-          ],
-          "correctOptionIndex": 3,
-          "correctOption": "Plants and animals",
-          "points": 15
-        },
-        {
-          "questionID": 4,
-          "question": "What is Biology",
-          "answerOptions": [
-            "Way of life",
-            "Study of living things",
-            "Study of animals",
-            "Study of plants"
+            "To write code",
+            "To access and display websites",
+            "To store files",
+            "To manage hardware"
           ],
           "correctOptionIndex": 1,
-          "correctOption": "Study of living things",
-          "points": 10
-        },
-        {
-          "questionID": 5,
-          "question": "What is Photosynthesis?",
-          "answerOptions": [
-            "Process by which green plant synthesize their foods using sunlight and CO2",
-            "Study of living things",
-            "Study of animals",
-            "Study of plants"
-          ],
-          "correctOptionIndex": 0,
-          "correctOption": "Process by which green plant synthesize their foods using sunlight and CO2",
+          "correctOption": "To access and display websites",
           "points": 20
         },
         {
-          "questionID": 6,
-          "question": "Carnivorous animals feed on .....",
-          "answerOptions": [
-            "Dead cells",
-            "Only animals",
-            "Only plants",
-            "Plants and animals"
-          ],
+          "questionID": 4,
+          "question": "Which of these is a programming language?",
+          "answerOptions": ["HTML", "CSS", "XML", "Java"],
           "correctOptionIndex": 3,
-          "correctOption": "Plants and animals",
-          "points": 15
+          "correctOption": "Java",
+          "points": 20
+        },
+        {
+          "questionID": 5,
+          "question": "What unit is used to measure computer memory?",
+          "answerOptions": ["Byte", "Meter", "Watt", "Liter"],
+          "correctOptionIndex": 0,
+          "correctOption": "Byte",
+          "points": 20
         }
       ],
       "medium": [
         {
           "questionID": 1,
-          "question": "What is Biology",
-          "answerOptions": [
-            "Way of life",
-            "Study of living things",
-            "Study of animals",
-            "Study of plants"
-          ],
-          "correctOptionIndex": 1,
-          "correctOption": "Study of living things",
-          "points": 10
+          "question": "What is the time complexity of a linear search algorithm in the worst case?",
+          "answerOptions": ["O(1)", "O(log n)", "O(n)", "O(n²)"],
+          "correctOptionIndex": 2,
+          "correctOption": "O(n)",
+          "points": 20
         },
         {
           "questionID": 2,
-          "question": "What is Photosynthesis?",
-          "answerOptions": [
-            "Process by which green plant synthesize their foods using sunlight and CO2",
-            "Study of living things",
-            "Study of animals",
-            "Study of plants"
-          ],
-          "correctOptionIndex": 0,
-          "correctOption": "Process by which green plant synthesize their foods using sunlight and CO2",
+          "question": "Which data structure operates on a Last-In, First-Out (LIFO) principle?",
+          "answerOptions": ["Queue", "Stack", "Array", "Linked List"],
+          "correctOptionIndex": 1,
+          "correctOption": "Stack",
           "points": 20
         },
         {
           "questionID": 3,
-          "question": "Carnivorous animals feed on .....",
+          "question": "What does the acronym SQL stand for?",
           "answerOptions": [
-            "Dead cells",
-            "Only animals",
-            "Only plants",
-            "Plants and animals"
+            "Structured Query Language",
+            "Simple Question Language",
+            "System Query Logic",
+            "Sequential Query Language"
           ],
-          "correctOptionIndex": 3,
-          "correctOption": "Plants and animals",
-          "points": 15
+          "correctOptionIndex": 0,
+          "correctOption": "Structured Query Language",
+          "points": 20
         },
         {
           "questionID": 4,
-          "question": "What is Biology",
-          "answerOptions": [
-            "Way of life",
-            "Study of living things",
-            "Study of animals",
-            "Study of plants"
-          ],
+          "question": "Which protocol is used to transfer web pages over the internet?",
+          "answerOptions": ["FTP", "HTTP", "SMTP", "TCP"],
           "correctOptionIndex": 1,
-          "correctOption": "Study of living things",
-          "points": 10
+          "correctOption": "HTTP",
+          "points": 20
         },
         {
           "questionID": 5,
-          "question": "What is Photosynthesis?",
+          "question": "What is the purpose of a loop in programming?",
           "answerOptions": [
-            "Process by which green plant synthesize their foods using sunlight and CO2",
-            "Study of living things",
-            "Study of animals",
-            "Study of plants"
+            "To store data",
+            "To define a function",
+            "To handle errors",
+            "To execute code repeatedly"
           ],
-          "correctOptionIndex": 0,
-          "correctOption": "Process by which green plant synthesize their foods using sunlight and CO2",
+          "correctOptionIndex": 3,
+          "correctOption": "To execute code repeatedly",
           "points": 20
         }
       ],
       "hard": [
         {
           "questionID": 1,
-          "question": "What is Biology",
+          "question": "Which sorting algorithm has an average time complexity of O(n log n) and is stable?",
           "answerOptions": [
-            "Way of life",
-            "Study of living things",
-            "Study of animals",
-            "Study of plants"
+            "Quick Sort",
+            "Merge Sort",
+            "Bubble Sort",
+            "Selection Sort"
           ],
           "correctOptionIndex": 1,
-          "correctOption": "Study of living things",
-          "points": 10
+          "correctOption": "Merge Sort",
+          "points": 20
         },
         {
           "questionID": 2,
-          "question": "What is Photosynthesis?",
+          "question": "In object-oriented programming, what is encapsulation?",
           "answerOptions": [
-            "Process by which green plant synthesize their foods using sunlight and CO2",
-            "Study of living things",
-            "Study of animals",
-            "Study of plants"
+            "Breaking a program into smaller modules",
+            "Inheriting properties from a parent class",
+            "Hiding data and exposing only necessary parts through methods",
+            "Using multiple functions in a single class"
           ],
-          "correctOptionIndex": 0,
-          "correctOption": "Process by which green plant synthesize their foods using sunlight and CO2",
+          "correctOptionIndex": 2,
+          "correctOption": "Hiding data and exposing only necessary parts through methods",
           "points": 20
         },
         {
           "questionID": 3,
-          "question": "Carnivorous animals feed on .....",
+          "question": "What is the purpose of a hash table?",
           "answerOptions": [
-            "Dead cells",
-            "Only animals",
-            "Only plants",
-            "Plants and animals"
+            "To provide fast data retrieval using keys",
+            "To store data in a sorted order",
+            "To execute recursive functions",
+            "To manage memory allocation"
           ],
-          "correctOptionIndex": 3,
-          "correctOption": "Plants and animals",
-          "points": 15
+          "correctOptionIndex": 0,
+          "correctOption": "To provide fast data retrieval using keys",
+          "points": 20
         },
         {
           "questionID": 4,
-          "question": "What is Biology",
+          "question": "Which of the following is a characteristic of a binary search tree (BST)?",
           "answerOptions": [
-            "Way of life",
-            "Study of living things",
-            "Study of animals",
-            "Study of plants"
+            "All nodes have two children",
+            "It allows duplicate values by default",
+            "It is always balanced",
+            "Left subtree nodes are less than the parent, and right subtree nodes are greater"
           ],
-          "correctOptionIndex": 1,
-          "correctOption": "Study of living things",
-          "points": 10
+          "correctOptionIndex": 3,
+          "correctOption": "Left subtree nodes are less than the parent, and right subtree nodes are greater",
+          "points": 20
+        },
+        {
+          "questionID": 5,
+          "question": "What is the primary function of a garbage collector in programming languages like Java?",
+          "answerOptions": [
+            "To optimize code execution",
+            "To compile code into machine language",
+            "To automatically reclaim memory from unused objects",
+            "To manage database connections"
+          ],
+          "correctOptionIndex": 2,
+          "correctOption": "To automatically reclaim memory from unused objects",
+          "points": 20
         }
       ]
     }
@@ -628,202 +531,172 @@
       "easy": [
         {
           "questionID": 1,
-          "question": "What is Biology",
-          "answerOptions": [
-            "Way of life",
-            "Study of living things",
-            "Study of animals",
-            "Study of plants"
-          ],
-          "correctOptionIndex": 1,
-          "correctOption": "Study of living things",
-          "points": 10
+          "question": "What is a synonym for 'happy'?",
+          "answerOptions": ["Sad", "Angry", "Tired", "Joyful"],
+          "correctOptionIndex": 3,
+          "correctOption": "Joyful",
+          "points": 20
         },
         {
           "questionID": 2,
-          "question": "What is Photosynthesis?",
+          "question": "Which sentence is grammatically correct?",
           "answerOptions": [
-            "Process by which green plant synthesize their foods using sunlight and CO2",
-            "Study of living things",
-            "Study of animals",
-            "Study of plants"
+            "She go to the store.",
+            "She goes to the store.",
+            "She gone to the store.",
+            "She going to the store."
           ],
-          "correctOptionIndex": 0,
-          "correctOption": "Process by which green plant synthesize their foods using sunlight and CO2",
+          "correctOptionIndex": 1,
+          "correctOption": "She goes to the store.",
           "points": 20
         },
         {
           "questionID": 3,
-          "question": "Carnivorous animals feed on .....",
-          "answerOptions": [
-            "Dead cells",
-            "Only animals",
-            "Only plants",
-            "Plants and animals"
-          ],
-          "correctOptionIndex": 3,
-          "correctOption": "Plants and animals",
-          "points": 15
-        },
-        {
-          "questionID": 4,
-          "question": "What is Biology",
-          "answerOptions": [
-            "Way of life",
-            "Study of living things",
-            "Study of animals",
-            "Study of plants"
-          ],
-          "correctOptionIndex": 1,
-          "correctOption": "Study of living things",
-          "points": 10
-        },
-        {
-          "questionID": 5,
-          "question": "What is Photosynthesis?",
-          "answerOptions": [
-            "Process by which green plant synthesize their foods using sunlight and CO2",
-            "Study of living things",
-            "Study of animals",
-            "Study of plants"
-          ],
-          "correctOptionIndex": 0,
-          "correctOption": "Process by which green plant synthesize their foods using sunlight and CO2",
+          "question": "What is the plural form of 'child'?",
+          "answerOptions": ["Childs", "Childes", "Children", "Childrens"],
+          "correctOptionIndex": 2,
+          "correctOption": "Children",
           "points": 20
         },
         {
-          "questionID": 6,
-          "question": "Carnivorous animals feed on .....",
+          "questionID": 4,
+          "question": "Which word is a noun?",
+          "answerOptions": ["Run", "Quickly", "Book", "Fast"],
+          "correctOptionIndex": 2,
+          "correctOption": "Book",
+          "points": 20
+        },
+        {
+          "questionID": 5,
+          "question": "What punctuation mark ends a declarative sentence?",
           "answerOptions": [
-            "Dead cells",
-            "Only animals",
-            "Only plants",
-            "Plants and animals"
+            "Period",
+            "Comma",
+            "Exclamation point",
+            "Question mark"
           ],
-          "correctOptionIndex": 3,
-          "correctOption": "Plants and animals",
-          "points": 15
+          "correctOptionIndex": 0,
+          "correctOption": "Period",
+          "points": 20
         }
       ],
       "medium": [
         {
           "questionID": 1,
-          "question": "What is Biology",
+          "question": "What is the main idea of a paragraph called?",
           "answerOptions": [
-            "Way of life",
-            "Study of living things",
-            "Study of animals",
-            "Study of plants"
+            "Topic sentence",
+            "Supporting detail",
+            "Conclusion",
+            "Transition"
           ],
-          "correctOptionIndex": 1,
-          "correctOption": "Study of living things",
-          "points": 10
+          "correctOptionIndex": 0,
+          "correctOption": "Topic sentence",
+          "points": 20
         },
         {
           "questionID": 2,
-          "question": "What is Photosynthesis?",
+          "question": "Which sentence uses correct subject-verb agreement?",
           "answerOptions": [
-            "Process by which green plant synthesize their foods using sunlight and CO2",
-            "Study of living things",
-            "Study of animals",
-            "Study of plants"
+            "The team are winning.",
+            "The team is winning.",
+            "The team were winning.",
+            "The team be winning."
           ],
-          "correctOptionIndex": 0,
-          "correctOption": "Process by which green plant synthesize their foods using sunlight and CO2",
+          "correctOptionIndex": 1,
+          "correctOption": "The team is winning.",
           "points": 20
         },
         {
           "questionID": 3,
-          "question": "Carnivorous animals feed on .....",
+          "question": "What literary device involves comparing two things using 'like' or 'as'?",
           "answerOptions": [
-            "Dead cells",
-            "Only animals",
-            "Only plants",
-            "Plants and animals"
+            "Metaphor",
+            "Personification",
+            "Simile",
+            "Alliteration"
           ],
-          "correctOptionIndex": 3,
-          "correctOption": "Plants and animals",
-          "points": 15
-        },
-        {
-          "questionID": 4,
-          "question": "What is Biology",
-          "answerOptions": [
-            "Way of life",
-            "Study of living things",
-            "Study of animals",
-            "Study of plants"
-          ],
-          "correctOptionIndex": 1,
-          "correctOption": "Study of living things",
+          "correctOptionIndex": 2,
+          "correctOption": "Simile",
           "points": 10
         },
         {
+          "questionID": 4,
+          "question": "Which word is an antonym of 'big'?",
+          "answerOptions": ["Great", "Large", "Huge", "Small"],
+          "correctOptionIndex": 3,
+          "correctOption": "Small",
+          "points": 20
+        },
+        {
           "questionID": 5,
-          "question": "What is Photosynthesis?",
-          "answerOptions": [
-            "Process by which green plant synthesize their foods using sunlight and CO2",
-            "Study of living things",
-            "Study of animals",
-            "Study of plants"
-          ],
-          "correctOptionIndex": 0,
-          "correctOption": "Process by which green plant synthesize their foods using sunlight and CO2",
+          "question": "What is the correct form of the verb in: 'If I ___ rich, I would travel the world'?",
+          "answerOptions": ["Was", "Were", "Am", "Be"],
+          "correctOptionIndex": 1,
+          "correctOption": "Were",
           "points": 20
         }
       ],
       "hard": [
         {
           "questionID": 1,
-          "question": "What is Biology",
+          "question": "What is the term for a word that imitates the sound it represents?",
           "answerOptions": [
-            "Way of life",
-            "Study of living things",
-            "Study of animals",
-            "Study of plants"
+            "Hyperbole",
+            "Onomatopoeia",
+            "Oxymoron",
+            "Synecdoche"
           ],
           "correctOptionIndex": 1,
-          "correctOption": "Study of living things",
-          "points": 10
+          "correctOption": "Onomatopoeia",
+          "points": 20
         },
         {
           "questionID": 2,
-          "question": "What is Photosynthesis?",
+          "question": "In Shakespeare's 'Romeo and Juliet', what is the primary source of conflict?",
           "answerOptions": [
-            "Process by which green plant synthesize their foods using sunlight and CO2",
-            "Study of living things",
-            "Study of animals",
-            "Study of plants"
+            "A feud between two families",
+            "A war between two kingdoms",
+            "A disagreement over land",
+            "A rivalry over wealth"
           ],
           "correctOptionIndex": 0,
-          "correctOption": "Process by which green plant synthesize their foods using sunlight and CO2",
+          "correctOption": "A feud between two families",
           "points": 20
         },
         {
           "questionID": 3,
-          "question": "Carnivorous animals feed on .....",
+          "question": "Which sentence is an example of the passive voice?",
           "answerOptions": [
-            "Dead cells",
-            "Only animals",
-            "Only plants",
-            "Plants and animals"
+            "A delicious meal was cooked by the chef.",
+            "The chef cooked a delicious meal.",
+            "The chef is cooking a delicious meal.",
+            "The chef will cook a delicious meal."
           ],
-          "correctOptionIndex": 3,
-          "correctOption": "Plants and animals",
-          "points": 15
+          "correctOptionIndex": 0,
+          "correctOption": "A delicious meal was cooked by the chef.",
+          "points": 20
         },
         {
           "questionID": 4,
-          "question": "What is Biology",
+          "question": "What is the rhetorical device where a speaker addresses an absent or imaginary person?",
+          "answerOptions": ["Apostrophe", "Irony", "Metonymy", "Paradox"],
+          "correctOptionIndex": 0,
+          "correctOption": "Apostrophe",
+          "points": 20
+        },
+        {
+          "questionID": 5,
+          "question": "Which of the following is an example of an iambic pentameter?",
           "answerOptions": [
-            "Way of life",
-            "Study of living things",
-            "Study of animals",
-            "Study of plants"
+            "Shall I compare thee to a summer's day?",
+            "The rain in Spain stays mainly in the plain.",
+            "I wandered lonely as a cloud.",
+            "Because I could not stop for death."
           ],
-          "correctOptionIndex": 1,
-          "correctOption": "Study of living things",
-          "points": 10
+          "correctOptionIndex": 0,
+          "correctOption": "Shall I compare thee to a summer's day?",
+          "points": 20
         }
       ]
     }

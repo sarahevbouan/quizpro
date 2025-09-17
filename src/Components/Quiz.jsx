@@ -8,12 +8,13 @@ import ReviewAnswers from "./ReviewAnswers";
 import { Link, useParams } from "react-router-dom";
 import { DifficultyLevelContext } from "../Contexts/DifficultyLevelContext";
 import {
-  getSessionStorageItem,
-  removeSessionStorageItem,
-  setSessionStorageItem,
+  getStorageItem,
+  removeStorageItem,
+  setStorageItem,
   toSentenceCase,
 } from "../Utils/utils";
 import Button from "./Button";
+import Score from "./Score";
 
 const Quiz = () => {
   const { subjectId } = useParams();
@@ -22,16 +23,17 @@ const Quiz = () => {
   let retrievedQuestions;
   let retrievedTimeRemaining;
   let retrievedUserResponses;
-  if (subjectId === getSessionStorageItem("subjectId")) {
-    retrievedQuestionID = getSessionStorageItem("activeQuestionID");
-    retrievedStatus = getSessionStorageItem("status");
-    retrievedQuestions = getSessionStorageItem("questions");
-    retrievedTimeRemaining = getSessionStorageItem("timeRemaining");
-    retrievedUserResponses = getSessionStorageItem("userResponses");
+  if (subjectId === getStorageItem(sessionStorage, "subjectId")) {
+    retrievedQuestionID = getStorageItem(sessionStorage, "activeQuestionID");
+    retrievedStatus = getStorageItem(sessionStorage, "status");
+    retrievedQuestions = getStorageItem(sessionStorage, "questions");
+    retrievedTimeRemaining = getStorageItem(sessionStorage, "timeRemaining");
+    retrievedUserResponses = getStorageItem(sessionStorage, "userResponses");
   }
+
   const resultLog = useRef(null);
 
-  const TIME_PER_QUESTION = 60;
+  const TIME_PER_QUESTION = 360;
   const initialState = {
     questions: retrievedQuestions ? retrievedQuestions : [],
     //laoding, ready, error, active, finish
@@ -163,7 +165,7 @@ const Quiz = () => {
           type: "ready",
           payload: data.questions[difficultyLevel],
         });
-      } catch (error) {
+      } catch {
         dispatch({ type: "error" });
       }
     };
@@ -173,15 +175,15 @@ const Quiz = () => {
     }
   }, [difficultyLevel, subjectId]);
   useEffect(() => {
-    setSessionStorageItem("activeQuestionID", activeQuestionID);
-    setSessionStorageItem("status", status);
-    setSessionStorageItem("questions", questions);
+    setStorageItem(sessionStorage, "activeQuestionID", activeQuestionID);
+    setStorageItem(sessionStorage, "status", status);
+    setStorageItem(sessionStorage, "questions", questions);
 
     if (!isSubmitted) {
-      setSessionStorageItem("userResponses", userResponses);
+      setStorageItem(sessionStorage, "userResponses", userResponses);
     }
-    setSessionStorageItem("subjectId", subjectId);
-    setSessionStorageItem("timeRemaining", timeRemaining);
+    setStorageItem(sessionStorage, "subjectId", subjectId);
+    setStorageItem(sessionStorage, "timeRemaining", timeRemaining);
   }, [
     activeQuestionID,
     status,
@@ -194,7 +196,7 @@ const Quiz = () => {
 
   useEffect(() => {
     if (timeRemaining === 0) {
-      removeSessionStorageItem("userResponses");
+      removeStorageItem(sessionStorage, "userResponses");
     }
   }, [timeRemaining]);
   return (
@@ -286,36 +288,45 @@ const Quiz = () => {
               />
             </div>
           )}
-          {status === "finished" && (
-            <div className="">
-              <p className={`${styles.finalScore} marginB`}>
-                Score: <br />{" "}
-                <span>
-                  {userResponses.reduce(
-                    (prevTotal, currentItem) =>
-                      prevTotal + currentItem.scorePoints,
-                    0
-                  )}
-                  /
-                  {questions.reduce(
-                    (prevTotal, current) => prevTotal + current.points,
-                    0
-                  )}
-                </span>
-              </p>
-              <div className={styles.footerCol}>
-                <Button>
-                  <Link to="/">Take another quiz</Link>
-                </Button>
-                <ActionButton
-                  dispatchedAction={dispatch}
-                  typeOfAction="reviewAnswers"
-                >
-                  Review answers
-                </ActionButton>
-              </div>
-            </div>
-          )}
+          {
+            status === "finished" && (
+              <Score
+                userResponses={userResponses}
+                questions={questions}
+                dispatch={dispatch}
+              />
+            )
+            //   <div className="">
+            //     <p className={`${styles.finalScore} marginB`}>
+            //       Score: <br />{" "}
+            //       {
+            //         <span>
+            //           {userResponses.reduce(
+            //             (prevTotal, currentItem) =>
+            //               prevTotal + currentItem.scorePoints,
+            //             0
+            //           )}
+            //           /
+            //           {questions.reduce(
+            //             (prevTotal, current) => prevTotal + current.points,
+            //             0
+            //           )}
+            //         </span>
+            //       }
+            //     </p>
+            //     <div className={styles.footerCol}>
+            //       <Button>
+            //         <Link to="/">Take another quiz</Link>
+            //       </Button>
+            //       <ActionButton
+            //         dispatchedAction={dispatch}
+            //         typeOfAction="reviewAnswers"
+            //       >
+            //         Review answers
+            //       </ActionButton>
+            //     </div>
+            //   </div>
+          }
           {status === "reviewAnswers" && (
             <>
               <div className={`${styles.footer} ${styles.nav} marginB`}>

@@ -2,7 +2,7 @@ import { Link, useNavigate } from "react-router-dom";
 import { UserContext } from "../Contexts/UserContext";
 import Form from "../Components/Form";
 import { useContext } from "react";
-import { getLocalStorageItem, setSessionStorageItem } from "../Utils/utils";
+import { getStorageItem, setStorageItem } from "../Utils/utils";
 import Navbar from "../Components/Navbar";
 import styles from "./InputForms.module.css";
 
@@ -10,7 +10,7 @@ const Signin = () => {
   const { setActiveUserId } = useContext(UserContext);
   const navigate = useNavigate();
   const handleSignin = (username, password, setInvalidUserAlert) => {
-    const parsedUserDB = getLocalStorageItem("userDB");
+    const parsedUserDB = getStorageItem(localStorage, "userDB");
     const activeUser = parsedUserDB?.find(
       (user) => user.username === username && user.password === password
     );
@@ -18,7 +18,7 @@ const Signin = () => {
       setActiveUserId(activeUser.username);
       setInvalidUserAlert("");
       navigate("/");
-      setSessionStorageItem("activeUserId", activeUser.username);
+      setStorageItem(sessionStorage, "activeUserId", activeUser.username);
     } else {
       setInvalidUserAlert("Incorrect Username or password");
       return;
