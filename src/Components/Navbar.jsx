@@ -1,4 +1,4 @@
-import { useContext, useState } from "react";
+import { useContext, useEffect, useRef, useState } from "react";
 import { Link, NavLink, useNavigate } from "react-router-dom";
 import styles from "./Navbar.module.css";
 import { UserContext } from "../Contexts/UserContext";
@@ -8,10 +8,23 @@ import Button from "./Button";
 const Navbar = () => {
   const { activeUserId, setActiveUserId } = useContext(UserContext);
   const [isOpen, setIsOpen] = useState(false);
+  const dropdownRef = useRef();
   const navigate = useNavigate();
   const handleMenu = () => {
     setIsOpen((prev) => !prev);
   };
+
+  useEffect(() => {
+    const handleClickEvent = (e) => {
+      if (isOpen && !dropdownRef.current.contains(e.target)) {
+        setIsOpen(false);
+      }
+    };
+    window.addEventListener("click", handleClickEvent);
+    return () => {
+      window.removeEventListener("click", handleClickEvent);
+    };
+  }, [isOpen]);
 
   return (
     <nav className={styles["navbar"]}>
@@ -27,7 +40,7 @@ const Navbar = () => {
           </Button>
         </li>
         {activeUserId ? (
-          <li className={styles["user-details"]}>
+          <li className={styles["user-details"]} ref={dropdownRef}>
             <p className={styles["user-icon"]} onClick={handleMenu}>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
