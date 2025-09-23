@@ -2,19 +2,17 @@
 
 A fast, interactive quiz app built with React. Users can:
 
-- • 🔐 Create an account to access quizzes and track progress
-- • 🧩 Select a subject and difficulty level
-- • ⏱️ Track quiz progression with countdown timer
-- • 📊 View instant scores and lifetime score history
-- • 🔍 Review answers after completing quizzes
-- • 🗑️ Clear scores to reset history
+- 🔐 Create an account to access quizzes and track progress
+- 🧩 Select a subject and difficulty level
+- ⏱️ Track quiz progression with countdown timer
+- 📊 View instant scores and lifetime score history
+- 🔍 Review answers after completing quizzes
+- 🗑️ Clear scores to reset history
 - 👉 **[Live Demo](https://quizpro-quiz.vercel.app/)** | Built with React + CSS Modules
 
 ---
 
 # 📖 Full Documentation
-
-# 📘 QuizPro
 
 An interactive quiz application built with React. Test your knowledge, race against the clock, review your answers, and track your lifetime performance.
 
@@ -22,17 +20,16 @@ An interactive quiz application built with React. Test your knowledge, race agai
 
 ## 🚀 Features
 
-• ✅ Account creation to access quiz
-
-- • ✅ Categories for difficulty level
-- • ✅ Multiple-choice questions with instant feedback
-- • ✅ Countdown timer for tracking progress
-- • ✅ Score tracking for each attempt
-- • ✅ Review answers after completing a quiz
-- • ✅ Lifetime scores saved across sessions
-- • ✅ Clear history option to reset all saved scores
-- • ✅ Responsive design (desktop & mobile friendly)
-- • ✅ Built with React + CSS Modules
+- ✅ Account creation to access quiz
+- ✅ Categories for difficulty level
+- ✅ Multiple-choice questions with instant feedback
+- ✅ Countdown timer for tracking progress
+- ✅ Score tracking for each attempt
+- ✅ Review answers after completing a quiz
+- ✅ Lifetime scores saved across sessions
+- ✅ Clear history option to reset all saved scores
+- ✅ Responsive design (desktop & mobile friendly)
+- ✅ Built with React + CSS Modules
 
 ---
 
@@ -44,8 +41,7 @@ An interactive quiz application built with React. Test your knowledge, race agai
 
 ### ⚙️ Installation & Setup
 
-Clone the repository:
-
+- Clone the repository:
 - git clone https://github.com/sarahevbouan/quizpro.git
 - cd quizpro
 - Install dependencies:
@@ -73,9 +69,8 @@ Clone the repository:
 
 ## 🔧 Tech Stack
 
-• Frontend: React, CSS Modules, Vercel Serverless Functions
-
-- • Build Tool: Vite
+- Frontend: React, CSS Modules, Vercel Serverless Functions
+- Build Tool: Vite
 
 ---
 
@@ -87,8 +82,6 @@ Clone the repository:
 
 ## ✨ Future Improvements
 
-• Backend for persistent scores across devices
-
-- • Leaderboard for multiple users
+- Backend for persistent scores across devices
 
 ---
