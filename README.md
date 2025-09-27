@@ -80,6 +80,10 @@ An interactive quiz application built with React. Test your knowledge, race agai
 
 ---
 
+## 🤝 Contributing
+
+If you spot a bug or have a suggestion, feel free to open an issue or submit a pull request.
+
 ## ✨ Future Improvements
 
 - Backend for persistent scores across devices
