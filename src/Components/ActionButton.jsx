@@ -30,13 +30,17 @@ const ActionButton = ({
           {
             subjectID: subjectId,
             difficultyLevel: difficultyLevel,
-            score: `${userResponses.reduce(
-              (prevTotal, currentItem) => prevTotal + currentItem.scorePoints,
-              0
-            )}/${questions.reduce(
-              (prevTotal, current) => prevTotal + current.points,
-              0
-            )}`,
+            score: `${Math.round(
+              (userResponses.reduce(
+                (prevTotal, currentItem) => prevTotal + currentItem.scorePoints,
+                0
+              ) /
+                questions.reduce(
+                  (prevTotal, current) => prevTotal + current.points,
+                  0
+                )) *
+                100
+            )}%`,
           },
         ],
       };
