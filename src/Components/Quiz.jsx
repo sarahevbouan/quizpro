@@ -33,7 +33,7 @@ const Quiz = () => {
 
   const resultLog = useRef(null);
 
-  const TIME_PER_QUESTION = 360;
+  const TIME_PER_QUESTION = 60;
   const initialState = {
     questions: retrievedQuestions ? retrievedQuestions : [],
     //laoding, ready, error, active, finish

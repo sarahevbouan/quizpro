@@ -22,20 +22,7 @@ const Score = ({ userResponses, questions, dispatch }) => {
       <p className={`${finalScore} marginB`}>
         Score: <br />{" "}
         {previousResponses ? (
-          <span>
-            {
-              /* {previousResponses.reduce(
-              (prevTotal, currentItem) => prevTotal + currentItem.scorePoints,
-              0
-            )}
-            /
-            {questions.reduce(
-              (prevTotal, current) => prevTotal + current.points,
-              0
-            )} */ percentScore
-            }
-            %
-          </span>
+          <span>{Math.round(percentScore)}%</span>
         ) : (
           "No score! Take a quiz"
         )}
