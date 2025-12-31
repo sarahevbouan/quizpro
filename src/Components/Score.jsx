@@ -10,13 +10,21 @@ const Score = ({ userResponses, questions, dispatch }) => {
     "userPreviousResponses"
   );
   const previousResponses = userPreviousResponses || userResponses;
+  const percentScore =
+    (previousResponses.reduce(
+      (prevTotal, currentItem) => prevTotal + currentItem.scorePoints,
+      0
+    ) /
+      questions.reduce((prevTotal, current) => prevTotal + current.points, 0)) *
+    100;
   return (
     <div className="">
       <p className={`${finalScore} marginB`}>
         Score: <br />{" "}
         {previousResponses ? (
           <span>
-            {previousResponses.reduce(
+            {
+              /* {previousResponses.reduce(
               (prevTotal, currentItem) => prevTotal + currentItem.scorePoints,
               0
             )}
@@ -24,7 +32,9 @@ const Score = ({ userResponses, questions, dispatch }) => {
             {questions.reduce(
               (prevTotal, current) => prevTotal + current.points,
               0
-            )}
+            )} */ percentScore
+            }
+            %
           </span>
         ) : (
           "No score! Take a quiz"
